@@ -1,0 +1,3 @@
+C:\Users\Hp\Desktop\TEXT TO SAGE\CSV-SAGE.pdb
+C:\Users\Hp\Desktop\TEXT TO SAGE\settings.json
+C:\Users\Hp\Desktop\TEXT TO SAGE\CSV-SAGE.exe
