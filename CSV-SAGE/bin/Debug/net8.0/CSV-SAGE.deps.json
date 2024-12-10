@@ -11,6 +11,8 @@
           "CsvHelper": "33.0.1",
           "Microsoft.Extensions.Configuration": "9.0.0",
           "Microsoft.Extensions.Configuration.Json": "9.0.0",
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
+          "NetOffice.Excel": "1.7.4.11",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -115,6 +117,41 @@
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4795.1000"
+          }
+        }
+      },
+      "NetOffice.Core/1.7.4.11": {
+        "runtime": {
+          "lib/net45/NetOffice.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
+          }
+        }
+      },
+      "NetOffice.Excel/1.7.4.11": {
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {
+            "assemblyVersion": "1.7.4.11",
+            "fileVersion": "1.7.3.0"
           }
         }
       },
@@ -232,6 +269,27 @@
       "sha512": "sha512-N3qEBzmLMYiASUlKxxFIISP4AiwuPTHF5uCh+2CWSwwzAJiIYx0kBJsS30cp1nvhSySFAVi30jecD307jV+8Kg==",
       "path": "microsoft.extensions.primitives/9.0.0",
       "hashPath": "microsoft.extensions.primitives.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
+      "path": "microsoft.office.interop.excel/15.0.4795.1001",
+      "hashPath": "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+    },
+    "NetOffice.Core/1.7.4.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-voWeYFBjBET6y0kugZ7LUCJHBtT/ox/JFEscRdyqDXyooVdY246d19wVMr1ftXXD+30k5ZiClIGZbpOxHLFp0A==",
+      "path": "netoffice.core/1.7.4.11",
+      "hashPath": "netoffice.core.1.7.4.11.nupkg.sha512"
+    },
+    "NetOffice.Excel/1.7.4.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pEGj7uPzw8M0Dj1qj39f+/Z8cJNqBoosGM4u3OKw7o878MTurFTwfx5U+9VMv8NFB1XeNNuVyv857qZwO9eLKA==",
+      "path": "netoffice.excel/1.7.4.11",
+      "hashPath": "netoffice.excel.1.7.4.11.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

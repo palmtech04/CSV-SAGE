@@ -36,3 +36,4 @@ D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\x64\Debug\net8.0\refint\CSV-SAGE
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\x64\Debug\net8.0\CSV-SAGE.pdb
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\x64\Debug\net8.0\CSV-SAGE.genruntimeconfig.cache
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\x64\Debug\net8.0\ref\CSV-SAGE.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\x64\Debug\net8.0\CSV-SAGE.sourcelink.json

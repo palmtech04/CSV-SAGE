@@ -1,16 +1,16 @@
 {
-  "bCpta": "D:\\Developpement\\basesage\\PALMTECH.MAE",
-  "bCial": "D:\\Developpement\\basesage\\PALMTECH.gcm",
+  "bCpta": "D:\\basesage\\PALMTECH.MAE",
   "username": "<Administrateur>",
   "password": "",
-  "fichier": "D:\\Developpement\\CSV-SAGE\\GRANDLIVRE.csv",
-  "Journal": 0,
-  "NPiece": 1,
-  "Date": 3,
-  "CompteG": 4,
-  "CompteTiers": 5,
-  "Libelle": 6,
-  "Reference": 7,
-  "Debit": 8,
-  "Credit": 9
+  "fichier": "D:\\Developpement\\CSV-SAGE\\Ledger Export_Aqu_s - Copie.txt",
+  "Journal": 10,
+  "Date": 4,
+  "Reference": 12,
+  "Nom_Compte": 1,
+  "CompteG": 29,
+  "CompteTiers": 0,
+  "Libelle": 13,
+   "TypeEcriture": 8,
+  "Montant": 7,
+  "numcompte": 0
 }
