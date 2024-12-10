@@ -154,7 +154,7 @@ using System.Reflection.Metadata;
                 //Console.WriteLine("--------------------Traitement des écritures-------------------");
 
 
-                /*
+                
                 foreach (string journalItem in Journals)
                  {
                     Console.WriteLine("Véfication du Journal " + journalItem + " ....");
@@ -207,8 +207,7 @@ using System.Reflection.Metadata;
                                         {
                                             tiers = bCpta.FactoryTiers.ReadNumero(columns[int.Parse(compteTiersColumn)].Trim());
                                         }
-                                        montantString = columns[int.Parse(montantColumn)].Trim().TrimStart('-').Replace('.', ',');
-
+ 
                                      
                                         mProcess.Journal = bCpta.FactoryJournal.ReadNumero(journalItem.Trim());
                                         mProcess.Date = date.ToDateTime(TimeOnly.MinValue);
@@ -282,9 +281,7 @@ using System.Reflection.Metadata;
                             
                 }
 
-                  */
-                success = true;
-                if (success == true)
+                 if (success == true)
                  {
                      foreach (string journalItem in Journals)
                      {
