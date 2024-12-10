@@ -13,10 +13,14 @@ using System.Reflection.Metadata;
     static async Task Main(string[] args)
     {
         int currentline = 0;
-         try
-        {
+        string logFilePath = "logfile.txt";
 
-                Stopwatch stopwatch = new Stopwatch();
+        try
+        {
+            WriteToLog(logFilePath, "--------------------------------------------------");
+            WriteToLog(logFilePath, "L'execution a commencé");
+
+            Stopwatch stopwatch = new Stopwatch();
 
             IConfiguration configuration = new ConfigurationBuilder()
            .AddJsonFile(Path.Combine(AppContext.BaseDirectory, "settings.json"), optional: true, reloadOnChange: true)
@@ -115,7 +119,7 @@ using System.Reflection.Metadata;
                                }
                         }
 
-                Console.WriteLine("les comptesG a jour");
+                WriteToLog(logFilePath,"les comptesG a jour");
 
                 //Console.WriteLine("--------------Création de tiers----------------------------");
 
@@ -133,7 +137,7 @@ using System.Reflection.Metadata;
                         //Console.WriteLine("Client " + key + " " + value + " crée");
                     }
                 }
-                Console.WriteLine("les clients a jour");
+                WriteToLog(logFilePath,"les clients a jour");
                 foreach(var (key, value) in lstFournisseurs)
                 {
 
@@ -157,7 +161,7 @@ using System.Reflection.Metadata;
                 
                 foreach (string journalItem in Journals)
                  {
-                    Console.WriteLine("Véfication du Journal " + journalItem + " ....");
+                    WriteToLog(logFilePath, "Véfication du Journal " + journalItem + " ....");
                     List<DateOnly> uniqueDates = new List<DateOnly>();
                     
                     foreach (string line in lines.Skip(1))
@@ -256,15 +260,15 @@ using System.Reflection.Metadata;
 
                                      if (iFail.ErrorCode == 28201)
                                      {
-                                        Console.WriteLine("Les écritures générales ne sont pas équilibrées pour le journal " + journalItem + " " + formattedDay+ "/" + formattedMonth + "/" + formattedYear);
+                                        WriteToLog(logFilePath, "Les écritures générales ne sont pas équilibrées pour le journal " + journalItem + " " + formattedDay+ "/" + formattedMonth + "/" + formattedYear);
                                         //Console.WriteLine(debit + "/" + credit);
-                                        Console.WriteLine("debit " + mProcess.Debit + "/ CREDIT :"+mProcess.Credit);
+                                        WriteToLog(logFilePath, "debit " + mProcess.Debit + "/ CREDIT :"+mProcess.Credit);
                                     }
 
                                      else
                                      {
-                                          Console.WriteLine(iFail.Text + " , au journal " + journalItem + ", Date " + " " + formattedDay  + "/" + formattedMonth + "/" + formattedYear );
-                                          Console.WriteLine(iFail.ErrorCode);
+                                        WriteToLog(logFilePath, iFail.Text + " , au journal " + journalItem + ", Date " + " " + formattedDay  + "/" + formattedMonth + "/" + formattedYear );
+                                        WriteToLog(logFilePath, iFail.ErrorCode);
 
                                     }
 
@@ -285,7 +289,7 @@ using System.Reflection.Metadata;
                  {
                      foreach (string journalItem in Journals)
                      {
-                        Console.WriteLine("Journal " + journalItem + "commencé l'écriture");
+                        WriteToLog(logFilePath, "Journal " + journalItem + "commencé l'écriture");
                         List<DateOnly> uniqueDates = new List<DateOnly>();
                         foreach (string line in lines.Skip(1))
                         {
@@ -370,14 +374,14 @@ using System.Reflection.Metadata;
                                 for (int d = 1; d <= mProcess.Errors.Count; d++)
                                 {
                                     IFailInfo iFail = mProcess.Errors[d];
-                                    Console.WriteLine(iFail.Text);
+                                    WriteToLog(logFilePath, iFail.Text);
                                 }
                             }
 
  
                         }
 
-                        Console.WriteLine("Journal " + journalItem + " a fini l'insertion des ecritures");
+                        WriteToLog(logFilePath, "Journal " + journalItem + " a fini l'insertion des ecritures");
 
                     }
 
@@ -387,15 +391,13 @@ using System.Reflection.Metadata;
             }
 
             stopwatch.Stop();
-            Console.WriteLine("temps pour tout importer" + stopwatch.Elapsed.TotalMinutes);
+            WriteToLog(logFilePath, "temps pour tout importer" + stopwatch.Elapsed.TotalMinutes);
 
-            Console.WriteLine("\nTraitement terminée");
+            WriteToLog(logFilePath, "\nTraitement terminée");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"An unexpected error occurred: {ex.Message}");
-            
-            Console.ReadLine(); // Keeps the console open
+            WriteToLog(logFilePath, $"An unexpected error occurred: {ex.Message}");
             
         }
         finally
@@ -410,6 +412,35 @@ using System.Reflection.Metadata;
 
 
 
+    static void WriteToLog(string fileName, string message)
+    {
+        // Check if fileName is empty or null
+        if (string.IsNullOrEmpty(fileName))
+        {
+            Console.WriteLine("Invalid log file name.");
+            return;
+        }
+
+        // Get the current timestamp
+        string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+        try
+        {
+            // Combine the current directory with the fileName to get the full path
+            string filePath = Path.Combine(Environment.CurrentDirectory, fileName);
+
+            // Open the log file in append mode or create if it doesn't exist
+            using (StreamWriter sw = new StreamWriter(filePath, true))
+            {
+                // Write the timestamp and message to the log file
+                sw.WriteLine($"{timestamp} - {message}{Environment.NewLine}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error writing to log file: {ex}");
+        }
+    }
 
 
     static string FormatDate(string input)
