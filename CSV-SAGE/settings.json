@@ -1,6 +1,11 @@
 {
-  "bCpta": "D:\\basesage\\PALMTECH.MAE",
-  "username": "<Administrateur>",
+  "scriptLink": "C:\\Users\\Hp\\Desktop\\CSV TO SAGE\\PALMTECH\\CLONE DATABASE.sql",
+  "Dbuser": "sa",
+  "server": "DESKTOP-PCP3HQ4\\SAGE100",
+  "Db": "PALMTECH",
+  "userPassword": "Sage@1234",
+  "bCpta": "D:\\basesage\\PALMTECH.mae",
+  "username": "<Adminstrateur>",
   "password": "",
   "fichier": "D:\\Developpement\\CSV-SAGE\\Ledger Export_AQU.csv",
   "Journal": 10,

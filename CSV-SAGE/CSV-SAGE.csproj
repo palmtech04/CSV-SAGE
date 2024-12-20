@@ -33,6 +33,7 @@
 		<PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
 		<PackageReference Include="NetOffice.Excel" Version="1.7.4.11" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Update="settings.json">

@@ -1,0 +1,22 @@
+{
+  "scriptLink": "D:\\Developpement\\CSV-SAGE\\CLONE DATABASE.sql",
+  "Dbuser": "sa",
+  "server" :"DESKTOP-PCP3HQ4\\SAGE100",
+  "Db": "PALMTECH",
+  "userPassword": "Sage@1234",
+  "bCpta": "D:\\basesage\\PALMTECH.MAE",
+  "username": "<Administrateur>",
+  "password": "",
+  "fichier": "D:\\Developpement\\CSV-SAGE\\Ledger Export_AQU.csv",
+  "Journal": 10,
+  "Date": 14,
+  "Reference": 0,
+  "Nom_Compte": 1,
+  "CompteG": 29,
+  "CompteTiers": 0,
+  "Libelle": 13,
+  "TypeEcriture": 8,
+  "Montant": 7,
+  "numcompte": 0
+
+}

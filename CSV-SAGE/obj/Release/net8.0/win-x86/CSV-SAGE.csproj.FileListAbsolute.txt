@@ -215,3 +215,6 @@ D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Release\net8.0\win-x86\refint\CS
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Release\net8.0\win-x86\CSV-SAGE.pdb
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Release\net8.0\win-x86\CSV-SAGE.genruntimeconfig.cache
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Release\net8.0\win-x86\ref\CSV-SAGE.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Release\net8.0\win-x86\CSV-SAGE.sourcelink.json
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\bin\Release\net8.0\win-x86\System.Data.SqlClient.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\bin\Release\net8.0\win-x86\sni.dll

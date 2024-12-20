@@ -2,6 +2,7 @@
 using Objets100cLib;
 using System;
 using System.Diagnostics;
+using System.Data.SqlClient; // Use Microsoft.Data.SqlClient if preferred.
 using System.Globalization;
 using System.Reflection.Metadata;
  class Program
@@ -17,6 +18,7 @@ using System.Reflection.Metadata;
 
         try
         {
+            Console.WriteLine("Execution a commencé");
             WriteToLog(logFilePath, "--------------------------------------------------");
             WriteToLog(logFilePath, "L'execution a commencé");
 
@@ -40,10 +42,21 @@ using System.Reflection.Metadata;
              string montantColumn = configuration["Montant"];
             string NomCompteColumn = configuration["Nom_Compte"];
             string typeEcriture = configuration["TypeEcriture"];
-             string erreur = "";
+            string scriptLink = configuration["scriptLink"];
+            string Dbuser = configuration["Dbuser"];
+            string userPassword = configuration["userPassword"];
+            string db = configuration["Db"];
+            string server = configuration["server"];
+            string erreur = "";
             bool success = true;
 
-            Console.WriteLine(bCptaSetting);
+
+            string connectionString = "Server="+server
+                +";Database="+db+";User Id="+ Dbuser + ";Password="+ userPassword+"; ";
+            string sqlScript = File.ReadAllText(scriptLink); // Read the SQL script from the file.
+            ExecuteSqlScript(connectionString, sqlScript);
+            Console.WriteLine("Le script SQL a été exécuté avec succès.");
+
             Dictionary<String,String> lstCompteG = new Dictionary<String,String>();
             //List<String> lstJournal = new List<String>();
             Dictionary<String,String> lstFournisseurs = new Dictionary<String, String>();
@@ -99,14 +112,13 @@ using System.Reflection.Metadata;
 
             if (OpenBase(ref bCpta, @bCptaSetting, @Usernamesetting, @passwordsetting)){
 
-
-            
                 Console.WriteLine("base de données ouvert");
 
+                Console.WriteLine("traitement a commencé");
 
-                        //Console.WriteLine("----------------Création des comptes généraux-------------------");
+                //Console.WriteLine("----------------Création des comptes généraux-------------------");
 
-                        foreach (var (key, value) in lstCompteG)
+                foreach (var (key, value) in lstCompteG)
                         {
                                if (key!="" && !bCpta.FactoryCompteG.ExistNumero(key)) {
                                     IBOCompteG3 compteG;
@@ -153,12 +165,15 @@ using System.Reflection.Metadata;
                        //Console.WriteLine("Fournisseur " + key + " " + value + " crée");
                     }
                 }
-                Console.WriteLine("les fournisseurs a jour");
+                WriteToLog(logFilePath, "les fournisseurs a jour");
 
                 //Console.WriteLine("--------------------Traitement des écritures-------------------");
 
 
-                
+
+
+
+             
                 foreach (string journalItem in Journals)
                  {
                     WriteToLog(logFilePath, "Véfication du Journal " + journalItem + " ....");
@@ -281,10 +296,12 @@ using System.Reflection.Metadata;
 
 
                      }
-                    Console.WriteLine("Journal " + journalItem + " equilibré");
+                    WriteToLog(logFilePath,"Journal " + journalItem + " equilibré");
                             
                 }
-
+            
+                
+    
                  if (success == true)
                  {
                      foreach (string journalItem in Journals)
@@ -483,6 +500,33 @@ using System.Reflection.Metadata;
         catch (Exception ex)
         {
             return false;
+        }
+    }
+
+    static void ExecuteSqlScript(string connectionString, string script)
+    {
+        try
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Split script into individual batches by "GO"
+                string[] commands = script.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
+
+                foreach (string command in commands)
+                {
+                     using (SqlCommand sqlCommand = new SqlCommand(command, connection))
+                    {
+                        sqlCommand.ExecuteNonQuery();
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message + "/" + ex.StackTrace);
+            return;
         }
     }
 
