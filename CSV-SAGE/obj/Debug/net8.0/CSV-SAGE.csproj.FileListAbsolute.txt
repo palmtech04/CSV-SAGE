@@ -37,3 +37,9 @@ D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Debug\net8.0\refint\CSV-SAGE.dll
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Debug\net8.0\CSV-SAGE.pdb
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Debug\net8.0\CSV-SAGE.genruntimeconfig.cache
 D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\obj\Debug\net8.0\ref\CSV-SAGE.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Developpement\CSV-SAGE\CSV-SAGE\CSV-SAGE\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll

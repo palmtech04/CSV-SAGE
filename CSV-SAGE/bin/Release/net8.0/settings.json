@@ -1,15 +1,19 @@
 {
-  "scriptLink": "D:\\Developpement\\CSV-SAGE\\CLONE DATABASE.sql",
+  "scriptLink": "C:\\Users\\Hp\\Desktop\\CSV TO SAGE\\AQU\\CLONE DATABASE.sql",
   "Dbuser": "sa",
-  "server" :"DESKTOP-PCP3HQ4\\SAGE100",
-  "Db": "PALMTECH",
+  "server": "DESKTOP-PCP3HQ4\\SAGE100",
+  "Db": "AQU",
   "userPassword": "Sage@1234",
-  "bCpta": "D:\\basesage\\PALMTECH.MAE",
+  "bCpta": "D:\\basesage\\AQU.mae",
   "username": "<Administrateur>",
   "password": "",
-  "fichier": "D:\\Developpement\\CSV-SAGE\\Ledger Export_AQU.csv",
+  "fichier": "D:\\Developpement\\CSV-SAGE\\Example.csv",
   "Journal": 10,
-  "Date": 14,
+  "NPiece": 6,
+  "Date": 3,
+  "jrnal_Line": 6,
+  "Nfacture": 17,
+  "DateSaisie": 14,
   "Reference": 0,
   "Nom_Compte": 1,
   "CompteG": 29,
@@ -18,5 +22,4 @@
   "TypeEcriture": 8,
   "Montant": 7,
   "numcompte": 0
-
 }

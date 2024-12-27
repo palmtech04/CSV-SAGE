@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSV-SAGE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19491ca7278d46a996bed140c4cbbdade43cde27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5516ba85a9522efc2a9af55aaf09f7ae11a4fc1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSV-SAGE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSV-SAGE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

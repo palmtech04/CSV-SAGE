@@ -1,264 +1,3044 @@
-2024-12-10 23:31:29 - 10/12/2024 23:31:29
+2024-12-24 10:56:02 - --------------------------------------------------
 
-2024-12-10 23:32:25 - 10/12/2024 23:32:25
+2024-12-24 10:56:02 - L'execution a commencé
 
-2024-12-10 23:34:31 - Test
+2024-12-24 10:56:05 - les comptesG a jour
 
-2024-12-10 23:39:58 - --------------------------------------------------
+2024-12-24 10:56:05 - les clients a jour
 
-2024-12-10 23:39:58 - L'execution a commencé
+2024-12-24 10:56:05 - les fournisseurs a jour
 
-2024-12-10 23:40:22 - temps pour tout importer0,37664791
+2024-12-24 10:56:05 - Vérification du Journal OD2 ....
 
-2024-12-10 23:40:22 - 
+2024-12-24 10:56:05 - Journal OD2 equilibré
+
+2024-12-24 10:56:05 - Journal OD2commencé l'écriture
+
+2024-12-24 10:56:05 - An unexpected error occurred: An item with the same key has already been added. Key: 0
+
+2024-12-24 11:10:48 - --------------------------------------------------
+
+2024-12-24 11:10:48 - L'execution a commencé
+
+2024-12-24 11:10:49 - les comptesG a jour
+
+2024-12-24 11:10:49 - les clients a jour
+
+2024-12-24 11:10:49 - les fournisseurs a jour
+
+2024-12-24 11:10:49 - Vérification du Journal OD2 ....
+
+2024-12-24 11:10:49 - Journal OD2 equilibré
+
+2024-12-24 11:10:49 - Journal OD2commencé l'écriture
+
+2024-12-24 11:10:50 - An unexpected error occurred: An item with the same key has already been added. Key: 0
+
+2024-12-24 11:17:18 - --------------------------------------------------
+
+2024-12-24 11:17:18 - L'execution a commencé
+
+2024-12-24 11:17:19 - les comptesG a jour
+
+2024-12-24 11:17:19 - les clients a jour
+
+2024-12-24 11:17:19 - les fournisseurs a jour
+
+2024-12-24 11:17:19 - Vérification du Journal OD2 ....
+
+2024-12-24 11:17:19 - Journal OD2 equilibré
+
+2024-12-24 11:17:19 - Journal OD2commencé l'écriture
+
+2024-12-24 11:17:19 - An unexpected error occurred: An item with the same key has already been added. Key: 0
+
+2024-12-24 11:17:32 - --------------------------------------------------
+
+2024-12-24 11:17:32 - L'execution a commencé
+
+2024-12-24 11:17:33 - les comptesG a jour
+
+2024-12-24 11:17:33 - les clients a jour
+
+2024-12-24 11:17:33 - les fournisseurs a jour
+
+2024-12-24 11:17:33 - Vérification du Journal OD2 ....
+
+2024-12-24 11:17:33 - Journal OD2 equilibré
+
+2024-12-24 11:17:33 - Journal OD2commencé l'écriture
+
+2024-12-24 11:17:34 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-24 11:17:34 - temps pour tout importer0,037836235
+
+2024-12-24 11:17:34 - 
 Traitement terminée
 
-2024-12-10 23:44:41 - --------------------------------------------------
+2024-12-24 11:20:23 - --------------------------------------------------
 
-2024-12-10 23:44:41 - L'execution a commencé
+2024-12-24 11:20:23 - L'execution a commencé
 
-2024-12-10 23:46:46 - --------------------------------------------------
+2024-12-24 11:20:25 - les comptesG a jour
 
-2024-12-10 23:46:46 - L'execution a commencé
+2024-12-24 11:20:25 - les clients a jour
 
-2024-12-10 23:47:13 - --------------------------------------------------
+2024-12-24 11:20:25 - les fournisseurs a jour
 
-2024-12-10 23:47:13 - L'execution a commencé
+2024-12-24 11:20:25 - Vérification du Journal OD2 ....
 
-2024-12-10 23:48:03 - les comptesG a jour
+2024-12-24 11:20:25 - Journal OD2 equilibré
 
-2024-12-10 23:48:04 - les clients a jour
+2024-12-24 11:20:25 - Journal OD2commencé l'écriture
 
-2024-12-11 10:41:38 - --------------------------------------------------
+2024-12-24 11:20:25 - Journal OD2 a fini l'insertion des ecritures
 
-2024-12-11 10:41:38 - L'execution a commencé
+2024-12-24 11:20:25 - temps pour tout importer0,029203268333333334
 
-2024-12-11 10:44:47 - --------------------------------------------------
-
-2024-12-11 10:44:47 - L'execution a commencé
-
-2024-12-11 11:00:16 - --------------------------------------------------
-
-2024-12-11 11:00:16 - L'execution a commencé
-
-2024-12-11 11:00:18 - An unexpected error occurred: Instance failure.
-
-2024-12-11 11:10:47 - --------------------------------------------------
-
-2024-12-11 11:10:47 - L'execution a commencé
-
-2024-12-11 11:10:48 - An unexpected error occurred: Instance failure.
-
-2024-12-11 11:11:16 - --------------------------------------------------
-
-2024-12-11 11:11:16 - L'execution a commencé
-
-2024-12-11 11:14:49 - --------------------------------------------------
-
-2024-12-11 11:14:49 - L'execution a commencé
-
-2024-12-11 11:14:50 - An unexpected error occurred: Keyword not supported: 'userid'.
-
-2024-12-11 11:16:09 - --------------------------------------------------
-
-2024-12-11 11:16:09 - L'execution a commencé
-
-2024-12-11 11:16:10 - An unexpected error occurred: Keyword not supported: 'userid'.
-
-2024-12-11 11:16:29 - --------------------------------------------------
-
-2024-12-11 11:16:29 - L'execution a commencé
-
-2024-12-11 11:16:29 - An unexpected error occurred: Keyword not supported: 'userid'.
-
-2024-12-11 11:18:31 - --------------------------------------------------
-
-2024-12-11 11:18:31 - L'execution a commencé
-
-2024-12-11 11:19:16 - les comptesG a jour
-
-2024-12-11 11:19:17 - les clients a jour
-
-2024-12-11 11:19:40 - les fournisseurs a jour
-
-2024-12-11 11:19:40 - Véfication du Journal OD2 ....
-
-2024-12-11 11:19:51 - --------------------------------------------------
-
-2024-12-11 11:19:51 - L'execution a commencé
-
-2024-12-11 11:22:48 - --------------------------------------------------
-
-2024-12-11 11:22:48 - L'execution a commencé
-
-2024-12-11 11:22:51 - les comptesG a jour
-
-2024-12-11 11:22:51 - les clients a jour
-
-2024-12-11 11:22:52 - les fournisseurs a jour
-
-2024-12-11 11:22:52 - Véfication du Journal OD2 ....
-
-2024-12-11 11:24:04 - --------------------------------------------------
-
-2024-12-11 11:24:04 - L'execution a commencé
-
-2024-12-11 11:24:49 - --------------------------------------------------
-
-2024-12-11 11:24:49 - L'execution a commencé
-
-2024-12-11 11:26:28 - --------------------------------------------------
-
-2024-12-11 11:26:28 - L'execution a commencé
-
-2024-12-11 11:26:49 - --------------------------------------------------
-
-2024-12-11 11:26:49 - L'execution a commencé
-
-2024-12-11 11:28:32 - --------------------------------------------------
-
-2024-12-11 11:28:32 - L'execution a commencé
-
-2024-12-11 11:28:34 - les comptesG a jour
-
-2024-12-11 11:28:34 - les clients a jour
-
-2024-12-11 11:28:35 - les fournisseurs a jour
-
-2024-12-11 11:28:35 - Véfication du Journal OD2 ....
-
-2024-12-11 11:28:59 - --------------------------------------------------
-
-2024-12-11 11:28:59 - L'execution a commencé
-
-2024-12-11 11:30:46 - --------------------------------------------------
-
-2024-12-11 11:30:46 - L'execution a commencé
-
-2024-12-11 11:33:20 - --------------------------------------------------
-
-2024-12-11 11:33:20 - L'execution a commencé
-
-2024-12-11 11:33:25 - temps pour tout importer0,00467367
-
-2024-12-11 11:33:25 - 
+2024-12-24 11:20:25 - 
 Traitement terminée
 
-2024-12-11 11:42:38 - --------------------------------------------------
+2024-12-24 11:23:23 - --------------------------------------------------
 
-2024-12-11 11:42:38 - L'execution a commencé
+2024-12-24 11:23:23 - L'execution a commencé
 
-2024-12-11 12:08:49 - --------------------------------------------------
+2024-12-24 11:23:24 - les comptesG a jour
 
-2024-12-11 12:08:49 - L'execution a commencé
+2024-12-24 11:23:24 - les clients a jour
 
-2024-12-11 12:12:40 - --------------------------------------------------
+2024-12-24 11:23:24 - les fournisseurs a jour
 
-2024-12-11 12:12:40 - L'execution a commencé
+2024-12-24 11:23:24 - Vérification du Journal OD2 ....
 
-2024-12-11 12:15:20 - --------------------------------------------------
+2024-12-24 11:23:24 - Journal OD2 equilibré
 
-2024-12-11 12:15:20 - L'execution a commencé
+2024-12-24 11:23:24 - Journal OD2commencé l'écriture
 
-2024-12-11 12:15:59 - temps pour tout importer0,05067051
+2024-12-24 11:23:26 - Journal OD2 a fini l'insertion des ecritures
 
-2024-12-11 12:15:59 - 
+2024-12-24 11:23:26 - temps pour tout importer0,047793546666666666
+
+2024-12-24 11:23:26 - 
 Traitement terminée
 
-2024-12-11 12:16:10 - --------------------------------------------------
+2024-12-24 11:28:15 - --------------------------------------------------
 
-2024-12-11 12:16:10 - L'execution a commencé
+2024-12-24 11:28:15 - L'execution a commencé
 
-2024-12-11 12:16:44 - les comptesG a jour
+2024-12-24 11:28:30 - --------------------------------------------------
 
-2024-12-11 12:16:45 - les clients a jour
+2024-12-24 11:28:30 - L'execution a commencé
 
-2024-12-11 12:16:58 - les fournisseurs a jour
+2024-12-24 11:29:54 - --------------------------------------------------
 
-2024-12-11 12:16:58 - Journal OD2commencé l'écriture
+2024-12-24 11:29:54 - L'execution a commencé
 
-2024-12-11 12:27:55 - --------------------------------------------------
+2024-12-24 11:30:34 - les comptesG a jour
 
-2024-12-11 12:27:55 - L'execution a commencé
+2024-12-24 11:30:34 - les clients a jour
 
-2024-12-11 12:28:01 - les comptesG a jour
+2024-12-24 11:30:34 - les fournisseurs a jour
 
-2024-12-11 12:28:01 - les clients a jour
+2024-12-24 11:30:34 - Vérification du Journal OD2 ....
 
-2024-12-11 12:28:32 - --------------------------------------------------
+2024-12-24 11:30:34 - Les écritures générales ne sont pas équilibrées pour le journal OD2 12/2020
 
-2024-12-11 12:28:32 - L'execution a commencé
+2024-12-24 11:30:34 - debit 7,34/ CREDIT :24,02
 
-2024-12-11 12:28:42 - les comptesG a jour
+2024-12-24 11:30:35 - Journal OD2 equilibré
 
-2024-12-11 12:28:42 - les clients a jour
+2024-12-24 11:30:35 - temps pour tout importer0,6738127016666666
 
-2024-12-11 12:28:45 - les fournisseurs a jour
-
-2024-12-11 12:28:45 - Véfication du Journal OD2 ....
-
-2024-12-11 12:31:34 - --------------------------------------------------
-
-2024-12-11 12:31:34 - L'execution a commencé
-
-2024-12-11 12:32:24 - --------------------------------------------------
-
-2024-12-11 12:32:24 - L'execution a commencé
-
-2024-12-11 12:33:41 - --------------------------------------------------
-
-2024-12-11 12:33:41 - L'execution a commencé
-
-2024-12-11 12:33:46 - les comptesG a jour
-
-2024-12-11 12:33:46 - les clients a jour
-
-2024-12-11 12:33:49 - les fournisseurs a jour
-
-2024-12-11 12:33:49 - Véfication du Journal OD2 ....
-
-2024-12-19 10:36:37 - --------------------------------------------------
-
-2024-12-19 10:36:37 - L'execution a commencé
-
-2024-12-19 10:36:40 - temps pour tout importer0,005535178333333333
-
-2024-12-19 10:36:40 - 
+2024-12-24 11:30:35 - 
 Traitement terminée
 
-2024-12-19 10:39:00 - --------------------------------------------------
+2024-12-24 11:31:13 - --------------------------------------------------
 
-2024-12-19 10:39:00 - L'execution a commencé
+2024-12-24 11:31:13 - L'execution a commencé
 
-2024-12-19 10:39:02 - temps pour tout importer0,01071626
+2024-12-24 11:31:49 - les comptesG a jour
 
-2024-12-19 10:39:02 - 
+2024-12-24 11:31:49 - les clients a jour
+
+2024-12-24 11:31:49 - les fournisseurs a jour
+
+2024-12-24 11:31:49 - Vérification du Journal OD2 ....
+
+2024-12-24 11:31:50 - Journal OD2 equilibré
+
+2024-12-24 11:31:50 - Journal OD2commencé l'écriture
+
+2024-12-24 11:31:59 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-24 11:31:59 - temps pour tout importer0,7513326366666667
+
+2024-12-24 11:31:59 - 
 Traitement terminée
 
-2024-12-19 10:39:59 - --------------------------------------------------
+2024-12-24 12:00:01 - --------------------------------------------------
 
-2024-12-19 10:39:59 - L'execution a commencé
+2024-12-24 12:00:01 - L'execution a commencé
 
-2024-12-19 10:40:01 - temps pour tout importer0,010406185
+2024-12-24 12:00:23 - les comptesG a jour
 
-2024-12-19 10:40:01 - 
+2024-12-24 12:00:23 - les clients a jour
+
+2024-12-24 12:00:23 - les fournisseurs a jour
+
+2024-12-24 12:00:23 - Vérification du Journal OD2 ....
+
+2024-12-24 12:00:24 - Journal OD2 equilibré
+
+2024-12-24 12:00:24 - Journal OD2commencé l'écriture
+
+2024-12-24 12:00:30 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-24 12:01:07 - --------------------------------------------------
+
+2024-12-24 12:01:07 - L'execution a commencé
+
+2024-12-24 12:01:59 - --------------------------------------------------
+
+2024-12-24 12:01:59 - L'execution a commencé
+
+2024-12-24 12:02:31 - les comptesG a jour
+
+2024-12-24 12:02:31 - les clients a jour
+
+2024-12-24 12:02:31 - les fournisseurs a jour
+
+2024-12-24 12:02:31 - Vérification du Journal OD2 ....
+
+2024-12-24 12:02:31 - Journal OD2 equilibré
+
+2024-12-24 12:02:32 - Journal OD2commencé l'écriture
+
+2024-12-24 12:02:40 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-24 12:03:01 - --------------------------------------------------
+
+2024-12-24 12:03:01 - L'execution a commencé
+
+2024-12-24 12:04:35 - --------------------------------------------------
+
+2024-12-24 12:04:35 - L'execution a commencé
+
+2024-12-24 12:04:40 - les comptesG a jour
+
+2024-12-24 12:04:40 - les clients a jour
+
+2024-12-24 12:04:40 - les fournisseurs a jour
+
+2024-12-24 12:04:40 - Vérification du Journal OD2 ....
+
+2024-12-24 12:04:41 - Journal OD2 equilibré
+
+2024-12-24 12:04:41 - Journal OD2commencé l'écriture
+
+2024-12-24 12:04:41 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-24 12:04:41 - temps pour tout importer0,09815678166666666
+
+2024-12-24 12:04:41 - 
 Traitement terminée
 
-2024-12-19 10:41:16 - --------------------------------------------------
+2024-12-24 12:06:51 - --------------------------------------------------
 
-2024-12-19 10:41:16 - L'execution a commencé
+2024-12-24 12:06:51 - L'execution a commencé
 
-2024-12-19 10:41:27 - temps pour tout importer0,011543381666666666
+2024-12-24 12:06:53 - les comptesG a jour
 
-2024-12-19 10:41:27 - 
+2024-12-24 12:06:53 - les clients a jour
+
+2024-12-24 12:06:53 - les fournisseurs a jour
+
+2024-12-24 12:06:53 - Vérification du Journal OD2 ....
+
+2024-12-24 12:06:53 - Journal OD2 equilibré
+
+2024-12-24 12:06:53 - Journal OD2commencé l'écriture
+
+2024-12-24 12:06:54 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-24 12:08:28 - --------------------------------------------------
+
+2024-12-24 12:08:28 - L'execution a commencé
+
+2024-12-24 12:08:29 - les comptesG a jour
+
+2024-12-24 12:08:29 - les clients a jour
+
+2024-12-24 12:08:29 - les fournisseurs a jour
+
+2024-12-24 12:08:29 - Vérification du Journal OD2 ....
+
+2024-12-24 12:08:29 - Journal OD2 equilibré
+
+2024-12-24 12:08:29 - Journal OD2commencé l'écriture
+
+2024-12-24 12:08:31 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-24 12:09:46 - --------------------------------------------------
+
+2024-12-24 12:09:46 - L'execution a commencé
+
+2024-12-24 12:09:47 - les comptesG a jour
+
+2024-12-24 12:09:47 - les clients a jour
+
+2024-12-24 12:09:47 - les fournisseurs a jour
+
+2024-12-24 12:09:47 - Vérification du Journal OD2 ....
+
+2024-12-24 12:09:47 - Journal OD2 equilibré
+
+2024-12-24 12:09:47 - Journal OD2commencé l'écriture
+
+2024-12-24 12:09:48 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-24 12:10:25 - --------------------------------------------------
+
+2024-12-24 12:10:25 - L'execution a commencé
+
+2024-12-24 12:10:26 - les comptesG a jour
+
+2024-12-24 12:10:26 - les clients a jour
+
+2024-12-24 12:10:26 - les fournisseurs a jour
+
+2024-12-24 12:10:26 - Vérification du Journal OD2 ....
+
+2024-12-24 12:10:26 - Journal OD2 equilibré
+
+2024-12-24 12:10:26 - Journal OD2commencé l'écriture
+
+2024-12-24 12:10:28 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-24 12:27:38 - --------------------------------------------------
+
+2024-12-24 12:27:38 - L'execution a commencé
+
+2024-12-24 12:29:06 - les comptesG a jour
+
+2024-12-24 12:29:06 - les clients a jour
+
+2024-12-24 12:29:06 - les fournisseurs a jour
+
+2024-12-24 12:29:06 - Vérification du Journal OD2 ....
+
+2024-12-24 12:29:07 - Journal OD2 equilibré
+
+2024-12-24 12:29:07 - Journal OD2commencé l'écriture
+
+2024-12-24 12:30:04 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-24 12:37:29 - --------------------------------------------------
+
+2024-12-24 12:37:29 - L'execution a commencé
+
+2024-12-24 12:37:31 - les comptesG a jour
+
+2024-12-24 12:37:31 - les clients a jour
+
+2024-12-24 12:37:31 - les fournisseurs a jour
+
+2024-12-24 12:37:31 - Vérification du Journal OD2 ....
+
+2024-12-24 12:37:31 - Journal OD2 equilibré
+
+2024-12-24 12:37:31 - Journal OD2commencé l'écriture
+
+2024-12-24 12:37:31 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-24 14:02:44 - --------------------------------------------------
+
+2024-12-24 14:02:44 - L'execution a commencé
+
+2024-12-24 14:03:19 - --------------------------------------------------
+
+2024-12-24 14:03:19 - L'execution a commencé
+
+2024-12-24 14:03:21 - temps pour tout importer0,005638966666666667
+
+2024-12-24 14:03:21 - 
 Traitement terminée
 
-2024-12-19 10:41:57 - --------------------------------------------------
+2024-12-24 14:04:29 - --------------------------------------------------
 
-2024-12-19 10:41:57 - L'execution a commencé
+2024-12-24 14:04:29 - L'execution a commencé
 
-2024-12-19 10:42:05 - temps pour tout importer0,009709386666666667
+2024-12-24 14:04:31 - temps pour tout importer0,005995336666666667
 
-2024-12-19 10:42:05 - 
+2024-12-24 14:04:31 - 
+Traitement terminée
+
+2024-12-24 14:06:06 - --------------------------------------------------
+
+2024-12-24 14:06:06 - L'execution a commencé
+
+2024-12-24 14:06:18 - les comptesG a jour
+
+2024-12-24 14:06:20 - les clients a jour
+
+2024-12-24 14:06:36 - les fournisseurs a jour
+
+2024-12-24 14:53:03 - --------------------------------------------------
+
+2024-12-24 14:53:03 - L'execution a commencé
+
+2024-12-24 14:53:06 - les comptesG a jour
+
+2024-12-24 14:53:06 - les clients a jour
+
+2024-12-24 14:53:07 - les fournisseurs a jour
+
+2024-12-24 14:53:07 - Vérification du Journal ASSET ....
+
+2024-12-24 14:53:08 - Aucun exercice trouvé pour la date 010420 ! , au journal ASSET, Date  /4/2020
+
+2024-12-24 14:53:08 - An unexpected error occurred: The best overloaded method match for 'Program.WriteToLog(string, string)' has some invalid arguments
+
+2024-12-24 15:02:27 - --------------------------------------------------
+
+2024-12-24 15:02:27 - L'execution a commencé
+
+2024-12-24 15:02:29 - les comptesG a jour
+
+2024-12-24 15:02:29 - les clients a jour
+
+2024-12-24 15:02:29 - les fournisseurs a jour
+
+2024-12-24 15:02:29 - Vérification du Journal ASSET ....
+
+2024-12-24 15:02:40 - Journal ASSET equilibré
+
+2024-12-24 15:02:40 - Vérification du Journal PUR ....
+
+2024-12-24 15:07:19 - Journal PUR equilibré
+
+2024-12-24 15:07:19 - Vérification du Journal GENJL ....
+
+2024-12-24 15:11:27 - Journal GENJL equilibré
+
+2024-12-24 15:11:27 - Vérification du Journal CASH ....
+
+2024-12-24 15:12:56 - Journal CASH equilibré
+
+2024-12-24 15:12:56 - Vérification du Journal AWB ....
+
+2024-12-24 15:20:44 - Journal AWB equilibré
+
+2024-12-24 15:20:44 - Vérification du Journal CMI ....
+
+2024-12-24 15:29:04 - Journal CMI equilibré
+
+2024-12-24 15:29:04 - Vérification du Journal RVPMS ....
+
+2024-12-24 15:46:42 - Journal RVPMS equilibré
+
+2024-12-24 15:46:42 - Vérification du Journal PROV ....
+
+2024-12-24 15:47:32 - Journal PROV equilibré
+
+2024-12-24 15:47:32 - Vérification du Journal TAX ....
+
+2024-12-24 15:48:12 - Journal TAX equilibré
+
+2024-12-24 15:48:12 - Vérification du Journal PAYJL ....
+
+2024-12-24 15:49:02 - Journal PAYJL equilibré
+
+2024-12-24 15:49:02 - Vérification du Journal PRES ....
+
+2024-12-24 15:50:13 - Journal PRES equilibré
+
+2024-12-24 15:50:13 - Vérification du Journal STORE ....
+
+2024-12-24 15:51:13 - Journal STORE equilibré
+
+2024-12-24 15:51:13 - Vérification du Journal SYSTM ....
+
+2024-12-24 15:51:14 - An unexpected error occurred: Enregistrement non trouvé !
+
+2024-12-24 15:55:51 - --------------------------------------------------
+
+2024-12-24 15:55:51 - L'execution a commencé
+
+2024-12-24 15:56:41 - les comptesG a jour
+
+2024-12-24 15:56:41 - les clients a jour
+
+2024-12-24 15:56:41 - les fournisseurs a jour
+
+2024-12-24 15:56:41 - Journal ASSETcommencé l'écriture
+
+2024-12-24 16:04:51 - --------------------------------------------------
+
+2024-12-24 16:04:51 - L'execution a commencé
+
+2024-12-24 16:05:36 - les comptesG a jour
+
+2024-12-24 16:05:36 - les clients a jour
+
+2024-12-24 16:05:37 - les fournisseurs a jour
+
+2024-12-24 16:05:37 - Journal ASSET commencé l'écriture
+
+2024-12-24 16:09:07 - Journal ASSET a fini l'insertion des ecritures
+
+2024-12-24 16:09:08 - Journal PUR commencé l'écriture
+
+2024-12-24 16:26:31 - Journal PUR a fini l'insertion des ecritures
+
+2024-12-24 16:26:31 - Journal GENJL commencé l'écriture
+
+2024-12-24 17:19:47 - Journal GENJL a fini l'insertion des ecritures
+
+2024-12-24 17:19:47 - Journal CASH commencé l'écriture
+
+2024-12-24 17:31:53 - Journal CASH a fini l'insertion des ecritures
+
+2024-12-24 17:31:54 - Journal AWB commencé l'écriture
+
+2024-12-24 19:02:24 - Journal AWB a fini l'insertion des ecritures
+
+2024-12-24 19:02:25 - Journal CMI commencé l'écriture
+
+2024-12-24 19:26:33 - Journal CMI a fini l'insertion des ecritures
+
+2024-12-24 19:26:33 - Journal RVPMS commencé l'écriture
+
+2024-12-24 19:59:55 - Journal RVPMS a fini l'insertion des ecritures
+
+2024-12-24 19:59:55 - Journal PROV commencé l'écriture
+
+2024-12-24 20:01:03 - Journal PROV a fini l'insertion des ecritures
+
+2024-12-24 20:01:03 - Journal TAX commencé l'écriture
+
+2024-12-24 20:01:43 - Journal TAX a fini l'insertion des ecritures
+
+2024-12-24 20:01:44 - Journal PAYJL commencé l'écriture
+
+2024-12-24 20:02:38 - Journal PAYJL a fini l'insertion des ecritures
+
+2024-12-24 20:02:38 - Journal PRES commencé l'écriture
+
+2024-12-24 20:03:58 - Journal PRES a fini l'insertion des ecritures
+
+2024-12-24 20:03:58 - Journal STORE commencé l'écriture
+
+2024-12-24 20:05:20 - Journal STORE a fini l'insertion des ecritures
+
+2024-12-24 20:05:20 - Journal SYSTM commencé l'écriture
+
+2024-12-24 20:05:20 - Journal SYSTM a fini l'insertion des ecritures
+
+2024-12-24 20:05:20 - temps pour tout importer240,47371470333334
+
+2024-12-24 20:05:20 - 
+Traitement terminée
+
+2024-12-25 09:30:03 - --------------------------------------------------
+
+2024-12-25 09:30:03 - L'execution a commencé
+
+2024-12-25 09:42:02 - --------------------------------------------------
+
+2024-12-25 09:42:02 - L'execution a commencé
+
+2024-12-25 09:48:13 - --------------------------------------------------
+
+2024-12-25 09:48:13 - L'execution a commencé
+
+2024-12-25 09:48:20 - les comptesG a jour
+
+2024-12-25 09:48:20 - les clients a jour
+
+2024-12-25 09:48:20 - les fournisseurs a jour
+
+2024-12-25 09:48:20 - Vérification du Journal OD2 ....
+
+2024-12-25 09:48:20 - An unexpected error occurred: Enregistrement non trouvé !
+
+2024-12-25 10:02:34 - --------------------------------------------------
+
+2024-12-25 10:02:34 - L'execution a commencé
+
+2024-12-25 10:02:35 - les comptesG a jour
+
+2024-12-25 10:02:35 - les clients a jour
+
+2024-12-25 10:02:35 - les fournisseurs a jour
+
+2024-12-25 10:02:35 - Vérification du Journal OD2 ....
+
+2024-12-25 10:02:36 - An unexpected error occurred: Enregistrement non trouvé !
+
+2024-12-25 10:02:58 - --------------------------------------------------
+
+2024-12-25 10:02:58 - L'execution a commencé
+
+2024-12-25 10:03:05 - les comptesG a jour
+
+2024-12-25 10:03:05 - les clients a jour
+
+2024-12-25 10:03:05 - les fournisseurs a jour
+
+2024-12-25 10:03:05 - Vérification du Journal OD2 ....
+
+2024-12-25 10:03:05 - An unexpected error occurred: Enregistrement non trouvé !
+
+2024-12-25 10:06:29 - --------------------------------------------------
+
+2024-12-25 10:06:29 - L'execution a commencé
+
+2024-12-25 10:06:36 - temps pour tout importer0,0023015266666666667
+
+2024-12-25 10:06:36 - 
+Traitement terminée
+
+2024-12-25 10:08:15 - --------------------------------------------------
+
+2024-12-25 10:08:15 - L'execution a commencé
+
+2024-12-25 10:08:16 - temps pour tout importer0,0016551166666666666
+
+2024-12-25 10:08:16 - 
+Traitement terminée
+
+2024-12-25 10:08:37 - --------------------------------------------------
+
+2024-12-25 10:08:37 - L'execution a commencé
+
+2024-12-25 10:08:38 - temps pour tout importer0,0018614466666666666
+
+2024-12-25 10:08:38 - 
+Traitement terminée
+
+2024-12-25 10:09:37 - --------------------------------------------------
+
+2024-12-25 10:09:37 - L'execution a commencé
+
+2024-12-25 10:09:38 - temps pour tout importer0,0020997383333333335
+
+2024-12-25 10:09:38 - 
+Traitement terminée
+
+2024-12-25 10:10:01 - --------------------------------------------------
+
+2024-12-25 10:10:01 - L'execution a commencé
+
+2024-12-25 10:10:06 - temps pour tout importer0,001319095
+
+2024-12-25 10:10:06 - 
+Traitement terminée
+
+2024-12-25 10:11:28 - --------------------------------------------------
+
+2024-12-25 10:11:28 - L'execution a commencé
+
+2024-12-25 10:11:33 - temps pour tout importer0,002009345
+
+2024-12-25 10:11:33 - 
+Traitement terminée
+
+2024-12-25 10:12:30 - --------------------------------------------------
+
+2024-12-25 10:12:30 - L'execution a commencé
+
+2024-12-25 10:12:35 - les comptesG a jour
+
+2024-12-25 10:12:35 - les clients a jour
+
+2024-12-25 10:12:35 - les fournisseurs a jour
+
+2024-12-25 10:12:35 - Vérification du Journal OD2 ....
+
+2024-12-25 10:12:35 - Journal OD2 equilibré
+
+2024-12-25 10:12:35 - Journal OD2 commencé l'écriture
+
+2024-12-25 10:12:35 - An unexpected error occurred: Unable to cast COM object of type 'System.__ComObject' to interface type 'Objets100cLib.IStream'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0000000C-0000-0000-C000-000000000046}' failed due to the following error: Cette interface n’est pas prise en charge (0x80004002 (E_NOINTERFACE)).
+
+2024-12-25 10:17:56 - --------------------------------------------------
+
+2024-12-25 10:17:56 - L'execution a commencé
+
+2024-12-25 10:18:08 - temps pour tout importer0,0016390783333333334
+
+2024-12-25 10:18:08 - 
+Traitement terminée
+
+2024-12-25 10:21:11 - --------------------------------------------------
+
+2024-12-25 10:21:11 - L'execution a commencé
+
+2024-12-25 10:21:17 - temps pour tout importer0,0022910366666666665
+
+2024-12-25 10:21:17 - 
+Traitement terminée
+
+2024-12-25 10:22:01 - --------------------------------------------------
+
+2024-12-25 10:22:01 - L'execution a commencé
+
+2024-12-25 10:22:05 - les comptesG a jour
+
+2024-12-25 10:22:05 - les clients a jour
+
+2024-12-25 10:22:05 - les fournisseurs a jour
+
+2024-12-25 10:22:05 - Vérification du Journal OD2 ....
+
+2024-12-25 10:22:05 - Journal OD2 equilibré
+
+2024-12-25 10:22:05 - Journal OD2 commencé l'écriture
+
+2024-12-25 10:22:05 - An unexpected error occurred: Unable to cast COM object of type 'System.__ComObject' to interface type 'Objets100cLib.IStream'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0000000C-0000-0000-C000-000000000046}' failed due to the following error: Cette interface n’est pas prise en charge (0x80004002 (E_NOINTERFACE)).
+
+2024-12-25 10:23:29 - --------------------------------------------------
+
+2024-12-25 10:23:29 - L'execution a commencé
+
+2024-12-25 10:23:37 - les comptesG a jour
+
+2024-12-25 10:23:37 - les clients a jour
+
+2024-12-25 10:23:37 - les fournisseurs a jour
+
+2024-12-25 10:23:37 - Vérification du Journal OD2 ....
+
+2024-12-25 10:23:37 - Journal OD2 equilibré
+
+2024-12-25 10:23:37 - Journal OD2 commencé l'écriture
+
+2024-12-25 10:23:37 - An unexpected error occurred: Unable to cast COM object of type 'System.__ComObject' to interface type 'Objets100cLib.IStream'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0000000C-0000-0000-C000-000000000046}' failed due to the following error: Cette interface n’est pas prise en charge (0x80004002 (E_NOINTERFACE)).
+
+2024-12-25 10:27:11 - --------------------------------------------------
+
+2024-12-25 10:27:11 - L'execution a commencé
+
+2024-12-25 10:27:18 - les comptesG a jour
+
+2024-12-25 10:27:18 - les clients a jour
+
+2024-12-25 10:27:18 - les fournisseurs a jour
+
+2024-12-25 10:27:18 - Vérification du Journal OD2 ....
+
+2024-12-25 10:27:19 - Journal OD2 equilibré
+
+2024-12-25 10:27:19 - Journal OD2 commencé l'écriture
+
+2024-12-25 10:27:21 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-25 10:27:21 - temps pour tout importer0,05420259333333333
+
+2024-12-25 10:27:21 - 
+Traitement terminée
+
+2024-12-25 10:31:58 - --------------------------------------------------
+
+2024-12-25 10:31:58 - L'execution a commencé
+
+2024-12-25 10:32:05 - les comptesG a jour
+
+2024-12-25 10:32:05 - les clients a jour
+
+2024-12-25 10:32:05 - les fournisseurs a jour
+
+2024-12-25 10:32:05 - Vérification du Journal OD2 ....
+
+2024-12-25 10:32:06 - Journal OD2 equilibré
+
+2024-12-25 10:32:06 - Journal OD2 commencé l'écriture
+
+2024-12-25 10:32:07 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-25 10:32:07 - temps pour tout importer0,04912227
+
+2024-12-25 10:32:07 - 
+Traitement terminée
+
+2024-12-25 10:34:00 - --------------------------------------------------
+
+2024-12-25 10:34:00 - L'execution a commencé
+
+2024-12-25 10:34:07 - les comptesG a jour
+
+2024-12-25 10:34:07 - les clients a jour
+
+2024-12-25 10:34:07 - les fournisseurs a jour
+
+2024-12-25 10:34:07 - Vérification du Journal OD2 ....
+
+2024-12-25 10:34:07 - Journal OD2 equilibré
+
+2024-12-25 10:34:07 - Journal OD2 commencé l'écriture
+
+2024-12-25 10:34:09 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-25 10:34:09 - temps pour tout importer0,043754701666666666
+
+2024-12-25 10:34:09 - 
+Traitement terminée
+
+2024-12-25 10:40:35 - --------------------------------------------------
+
+2024-12-25 10:40:35 - L'execution a commencé
+
+2024-12-25 10:41:11 - temps pour tout importer0,004957723333333333
+
+2024-12-25 10:41:11 - 
+Traitement terminée
+
+2024-12-25 10:41:22 - --------------------------------------------------
+
+2024-12-25 10:41:22 - L'execution a commencé
+
+2024-12-25 10:42:03 - les comptesG a jour
+
+2024-12-25 10:42:03 - les clients a jour
+
+2024-12-25 10:42:03 - les fournisseurs a jour
+
+2024-12-25 10:42:03 - Vérification du Journal OD2 ....
+
+2024-12-25 10:42:04 - Journal OD2 equilibré
+
+2024-12-25 10:42:04 - Journal OD2 commencé l'écriture
+
+2024-12-25 10:42:04 - An unexpected error occurred: Marqueur illégal !
+
+2024-12-25 10:43:41 - --------------------------------------------------
+
+2024-12-25 10:43:41 - L'execution a commencé
+
+2024-12-25 10:44:47 - les comptesG a jour
+
+2024-12-25 10:44:47 - les clients a jour
+
+2024-12-25 10:44:47 - les fournisseurs a jour
+
+2024-12-25 10:44:47 - Vérification du Journal OD2 ....
+
+2024-12-25 10:44:48 - Journal OD2 equilibré
+
+2024-12-25 10:44:48 - Journal OD2 commencé l'écriture
+
+2024-12-25 10:44:56 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-25 10:44:56 - temps pour tout importer0,8055184466666667
+
+2024-12-25 10:44:56 - 
+Traitement terminée
+
+2024-12-25 12:00:45 - --------------------------------------------------
+
+2024-12-25 12:00:45 - L'execution a commencé
+
+2024-12-25 12:00:50 - les comptesG a jour
+
+2024-12-25 12:00:50 - les clients a jour
+
+2024-12-25 12:00:50 - les fournisseurs a jour
+
+2024-12-25 12:00:50 - Vérification du Journal OD2 ....
+
+2024-12-25 12:00:50 - Journal OD2 equilibré
+
+2024-12-25 12:00:50 - Journal OD2 commencé l'écriture
+
+2024-12-25 12:00:50 - An unexpected error occurred: Unable to cast COM object of type 'System.__ComObject' to interface type 'Objets100cLib.IStream'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0000000C-0000-0000-C000-000000000046}' failed due to the following error: Cette interface n’est pas prise en charge (0x80004002 (E_NOINTERFACE)).
+
+2024-12-25 12:01:24 - --------------------------------------------------
+
+2024-12-25 12:01:24 - L'execution a commencé
+
+2024-12-25 12:01:28 - les comptesG a jour
+
+2024-12-25 12:01:28 - les clients a jour
+
+2024-12-25 12:01:28 - les fournisseurs a jour
+
+2024-12-25 12:01:28 - Vérification du Journal OD2 ....
+
+2024-12-25 12:01:29 - Journal OD2 equilibré
+
+2024-12-25 12:01:29 - Journal OD2 commencé l'écriture
+
+2024-12-25 12:01:29 - An unexpected error occurred: Unable to cast COM object of type 'System.__ComObject' to interface type 'Objets100cLib.IStream'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0000000C-0000-0000-C000-000000000046}' failed due to the following error: Cette interface n’est pas prise en charge (0x80004002 (E_NOINTERFACE)).
+
+2024-12-25 12:12:42 - --------------------------------------------------
+
+2024-12-25 12:12:42 - L'execution a commencé
+
+2024-12-25 12:13:19 - temps pour tout importer0,00535351
+
+2024-12-25 12:13:19 - 
+Traitement terminée
+
+2024-12-25 12:15:29 - --------------------------------------------------
+
+2024-12-25 12:15:29 - L'execution a commencé
+
+2024-12-25 12:16:06 - temps pour tout importer0,007215318333333333
+
+2024-12-25 12:16:06 - 
+Traitement terminée
+
+2024-12-25 12:16:49 - --------------------------------------------------
+
+2024-12-25 12:16:49 - L'execution a commencé
+
+2024-12-25 12:17:23 - temps pour tout importer0,054729581666666666
+
+2024-12-25 12:17:23 - 
+Traitement terminée
+
+2024-12-25 12:19:41 - --------------------------------------------------
+
+2024-12-25 12:19:41 - L'execution a commencé
+
+2024-12-25 12:20:16 - temps pour tout importer0,035829175
+
+2024-12-25 12:20:16 - 
+Traitement terminée
+
+2024-12-25 12:23:06 - --------------------------------------------------
+
+2024-12-25 12:23:06 - L'execution a commencé
+
+2024-12-25 12:23:09 - temps pour tout importer0,0022118716666666666
+
+2024-12-25 12:23:09 - 
+Traitement terminée
+
+2024-12-25 12:23:17 - --------------------------------------------------
+
+2024-12-25 12:23:17 - L'execution a commencé
+
+2024-12-25 12:23:17 - temps pour tout importer0,0022689616666666666
+
+2024-12-25 12:23:17 - 
+Traitement terminée
+
+2024-12-25 12:23:42 - --------------------------------------------------
+
+2024-12-25 12:23:42 - L'execution a commencé
+
+2024-12-25 12:23:43 - temps pour tout importer0,006002105
+
+2024-12-25 12:23:43 - 
+Traitement terminée
+
+2024-12-25 12:24:35 - --------------------------------------------------
+
+2024-12-25 12:24:35 - L'execution a commencé
+
+2024-12-25 12:24:42 - les comptesG a jour
+
+2024-12-25 12:24:42 - les clients a jour
+
+2024-12-25 12:24:42 - les fournisseurs a jour
+
+2024-12-25 12:24:42 - Vérification du Journal OD2 ....
+
+2024-12-25 12:24:42 - Journal OD2 equilibré
+
+2024-12-25 12:24:42 - Journal OD2 commencé l'écriture
+
+2024-12-25 12:24:44 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-25 12:24:44 - temps pour tout importer0,05438795666666667
+
+2024-12-25 12:24:44 - 
+Traitement terminée
+
+2024-12-25 12:25:04 - --------------------------------------------------
+
+2024-12-25 12:25:04 - L'execution a commencé
+
+2024-12-25 12:25:08 - les comptesG a jour
+
+2024-12-25 12:25:08 - les clients a jour
+
+2024-12-25 12:25:08 - les fournisseurs a jour
+
+2024-12-25 12:25:08 - Vérification du Journal OD2 ....
+
+2024-12-25 12:25:08 - Journal OD2 equilibré
+
+2024-12-25 12:25:08 - Journal OD2 commencé l'écriture
+
+2024-12-25 12:25:10 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-25 12:25:10 - temps pour tout importer0,04782495333333334
+
+2024-12-25 12:25:10 - 
+Traitement terminée
+
+2024-12-25 12:27:17 - --------------------------------------------------
+
+2024-12-25 12:27:17 - L'execution a commencé
+
+2024-12-25 12:28:06 - les comptesG a jour
+
+2024-12-25 12:28:06 - les clients a jour
+
+2024-12-25 12:28:06 - les fournisseurs a jour
+
+2024-12-25 12:28:06 - Vérification du Journal OD2 ....
+
+2024-12-25 12:28:07 - Journal OD2 equilibré
+
+2024-12-25 12:28:07 - Journal OD2 commencé l'écriture
+
+2024-12-25 12:28:07 - An unexpected error occurred: Marqueur illégal !
+
+2024-12-25 12:40:30 - --------------------------------------------------
+
+2024-12-25 12:40:30 - L'execution a commencé
+
+2024-12-25 12:41:18 - les comptesG a jour
+
+2024-12-25 12:41:18 - les clients a jour
+
+2024-12-25 12:41:18 - les fournisseurs a jour
+
+2024-12-25 12:41:18 - Vérification du Journal OD2 ....
+
+2024-12-25 12:41:19 - Journal OD2 equilibré
+
+2024-12-25 12:41:19 - Journal OD2 commencé l'écriture
+
+2024-12-25 12:41:19 - An unexpected error occurred: Marqueur illégal !
+
+2024-12-25 12:59:39 - --------------------------------------------------
+
+2024-12-25 12:59:39 - L'execution a commencé
+
+2024-12-25 13:00:18 - temps pour tout importer0,04698729
+
+2024-12-25 13:00:18 - 
+Traitement terminée
+
+2024-12-25 13:00:20 - --------------------------------------------------
+
+2024-12-25 13:00:21 - L'execution a commencé
+
+2024-12-25 13:01:19 - les comptesG a jour
+
+2024-12-25 13:01:19 - les clients a jour
+
+2024-12-25 13:01:19 - les fournisseurs a jour
+
+2024-12-25 13:01:19 - Vérification du Journal OD2 ....
+
+2024-12-25 13:01:20 - Journal OD2 equilibré
+
+2024-12-25 13:01:20 - Journal OD2 commencé l'écriture
+
+2024-12-25 13:01:20 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-25 13:02:12 - --------------------------------------------------
+
+2024-12-25 13:02:12 - L'execution a commencé
+
+2024-12-25 13:02:32 - les comptesG a jour
+
+2024-12-25 13:02:32 - les clients a jour
+
+2024-12-25 13:02:32 - les fournisseurs a jour
+
+2024-12-25 13:02:32 - Vérification du Journal OD2 ....
+
+2024-12-25 13:02:32 - Journal OD2 equilibré
+
+2024-12-25 13:02:32 - Journal OD2 commencé l'écriture
+
+2024-12-25 13:02:33 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-25 13:09:11 - --------------------------------------------------
+
+2024-12-25 13:09:11 - L'execution a commencé
+
+2024-12-25 13:09:52 - les comptesG a jour
+
+2024-12-25 13:09:52 - les clients a jour
+
+2024-12-25 13:09:52 - les fournisseurs a jour
+
+2024-12-25 13:09:52 - Vérification du Journal OD2 ....
+
+2024-12-25 13:09:53 - Journal OD2 equilibré
+
+2024-12-25 13:09:53 - Journal OD2 commencé l'écriture
+
+2024-12-25 13:09:59 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-25 13:09:59 - temps pour tout importer0,5024943066666666
+
+2024-12-25 13:09:59 - 
+Traitement terminée
+
+2024-12-25 13:10:53 - --------------------------------------------------
+
+2024-12-25 13:10:53 - L'execution a commencé
+
+2024-12-25 13:11:01 - les comptesG a jour
+
+2024-12-25 13:11:01 - les clients a jour
+
+2024-12-25 13:11:01 - les fournisseurs a jour
+
+2024-12-25 13:11:01 - Vérification du Journal OD2 ....
+
+2024-12-25 13:11:01 - Journal OD2 equilibré
+
+2024-12-25 13:11:01 - Journal OD2 commencé l'écriture
+
+2024-12-25 13:11:01 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-25 13:11:35 - --------------------------------------------------
+
+2024-12-25 13:11:35 - L'execution a commencé
+
+2024-12-25 13:11:40 - les comptesG a jour
+
+2024-12-25 13:11:40 - les clients a jour
+
+2024-12-25 13:11:40 - les fournisseurs a jour
+
+2024-12-25 13:11:40 - Vérification du Journal OD2 ....
+
+2024-12-25 13:11:40 - Journal OD2 equilibré
+
+2024-12-25 13:11:40 - Journal OD2 commencé l'écriture
+
+2024-12-25 13:11:40 - An unexpected error occurred: Ce fichier est en cours d'utilisation !
+
+2024-12-25 13:12:05 - --------------------------------------------------
+
+2024-12-25 13:12:05 - L'execution a commencé
+
+2024-12-25 13:12:10 - les comptesG a jour
+
+2024-12-25 13:12:10 - les clients a jour
+
+2024-12-25 13:12:10 - les fournisseurs a jour
+
+2024-12-25 13:12:10 - Vérification du Journal OD2 ....
+
+2024-12-25 13:12:10 - Journal OD2 equilibré
+
+2024-12-25 13:12:10 - Journal OD2 commencé l'écriture
+
+2024-12-25 13:12:10 - An unexpected error occurred: Ce fichier est en cours d'utilisation !
+
+2024-12-25 13:13:11 - --------------------------------------------------
+
+2024-12-25 13:13:11 - L'execution a commencé
+
+2024-12-25 13:13:18 - les comptesG a jour
+
+2024-12-25 13:13:18 - les clients a jour
+
+2024-12-25 13:13:18 - les fournisseurs a jour
+
+2024-12-25 13:13:18 - Vérification du Journal OD2 ....
+
+2024-12-25 13:13:18 - Journal OD2 equilibré
+
+2024-12-25 13:13:18 - Journal OD2 commencé l'écriture
+
+2024-12-25 13:13:18 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-25 15:13:06 - --------------------------------------------------
+
+2024-12-25 15:13:06 - L'execution a commencé
+
+2024-12-25 15:13:46 - temps pour tout importer0,045533931666666666
+
+2024-12-25 15:13:46 - 
+Traitement terminée
+
+2024-12-26 09:31:17 - --------------------------------------------------
+
+2024-12-26 09:31:17 - L'execution a commencé
+
+2024-12-26 09:31:24 - les comptesG a jour
+
+2024-12-26 09:31:24 - les clients a jour
+
+2024-12-26 09:31:24 - les fournisseurs a jour
+
+2024-12-26 09:31:24 - Vérification du Journal OD2 ....
+
+2024-12-26 09:31:24 - Journal OD2 equilibré
+
+2024-12-26 09:31:24 - Journal OD2 commencé l'écriture
+
+2024-12-26 09:31:24 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-26 09:32:57 - --------------------------------------------------
+
+2024-12-26 09:32:57 - L'execution a commencé
+
+2024-12-26 09:33:33 - temps pour tout importer0,061331961666666664
+
+2024-12-26 09:33:33 - 
+Traitement terminée
+
+2024-12-26 09:33:37 - --------------------------------------------------
+
+2024-12-26 09:33:37 - L'execution a commencé
+
+2024-12-26 09:34:33 - les comptesG a jour
+
+2024-12-26 09:34:33 - les clients a jour
+
+2024-12-26 09:34:33 - les fournisseurs a jour
+
+2024-12-26 09:34:33 - Vérification du Journal OD2 ....
+
+2024-12-26 09:34:33 - Journal OD2 equilibré
+
+2024-12-26 09:34:33 - Journal OD2 commencé l'écriture
+
+2024-12-26 09:34:34 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-26 09:47:56 - --------------------------------------------------
+
+2024-12-26 09:47:57 - L'execution a commencé
+
+2024-12-26 09:48:01 - les comptesG a jour
+
+2024-12-26 09:48:01 - les clients a jour
+
+2024-12-26 09:48:01 - les fournisseurs a jour
+
+2024-12-26 09:48:01 - Vérification du Journal OD2 ....
+
+2024-12-26 09:48:01 - Journal OD2 equilibré
+
+2024-12-26 09:48:01 - Journal OD2 commencé l'écriture
+
+2024-12-26 09:48:02 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-26 09:48:19 - --------------------------------------------------
+
+2024-12-26 09:48:19 - L'execution a commencé
+
+2024-12-26 09:48:26 - les comptesG a jour
+
+2024-12-26 09:48:26 - les clients a jour
+
+2024-12-26 09:48:26 - les fournisseurs a jour
+
+2024-12-26 09:48:26 - Vérification du Journal OD2 ....
+
+2024-12-26 09:48:26 - Journal OD2 equilibré
+
+2024-12-26 09:48:26 - Journal OD2 commencé l'écriture
+
+2024-12-26 09:48:26 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-26 09:49:24 - --------------------------------------------------
+
+2024-12-26 09:49:25 - L'execution a commencé
+
+2024-12-26 09:50:00 - temps pour tout importer0,0581787
+
+2024-12-26 09:50:00 - 
+Traitement terminée
+
+2024-12-26 09:50:06 - --------------------------------------------------
+
+2024-12-26 09:50:07 - L'execution a commencé
+
+2024-12-26 09:50:41 - temps pour tout importer0,049798938333333334
+
+2024-12-26 09:50:41 - 
+Traitement terminée
+
+2024-12-26 09:51:26 - --------------------------------------------------
+
+2024-12-26 09:51:26 - L'execution a commencé
+
+2024-12-26 09:52:16 - les comptesG a jour
+
+2024-12-26 09:52:16 - les clients a jour
+
+2024-12-26 09:52:16 - les fournisseurs a jour
+
+2024-12-26 09:52:16 - Vérification du Journal OD2 ....
+
+2024-12-26 09:52:16 - Journal OD2 equilibré
+
+2024-12-26 09:52:16 - Journal OD2 commencé l'écriture
+
+2024-12-26 09:52:16 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-26 09:53:41 - --------------------------------------------------
+
+2024-12-26 09:53:41 - L'execution a commencé
+
+2024-12-26 09:54:17 - temps pour tout importer0,005193145
+
+2024-12-26 09:54:17 - 
+Traitement terminée
+
+2024-12-26 09:58:16 - --------------------------------------------------
+
+2024-12-26 09:58:16 - L'execution a commencé
+
+2024-12-26 09:59:30 - les comptesG a jour
+
+2024-12-26 09:59:30 - les clients a jour
+
+2024-12-26 09:59:30 - les fournisseurs a jour
+
+2024-12-26 09:59:30 - Vérification du Journal OD2 ....
+
+2024-12-26 09:59:31 - Journal OD2 equilibré
+
+2024-12-26 09:59:31 - Journal OD2 commencé l'écriture
+
+2024-12-26 09:59:32 - An unexpected error occurred: Ce fichier est en cours d'utilisation !
+
+2024-12-26 10:01:45 - --------------------------------------------------
+
+2024-12-26 10:01:45 - L'execution a commencé
+
+2024-12-26 10:02:49 - les comptesG a jour
+
+2024-12-26 10:02:49 - les clients a jour
+
+2024-12-26 10:02:49 - les fournisseurs a jour
+
+2024-12-26 10:02:49 - Vérification du Journal OD2 ....
+
+2024-12-26 10:02:49 - Journal OD2 equilibré
+
+2024-12-26 10:02:49 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:02:50 - An unexpected error occurred: La modification de l'info libre ne peut être effectuée que par l'application source !
+
+2024-12-26 10:03:26 - --------------------------------------------------
+
+2024-12-26 10:03:26 - L'execution a commencé
+
+2024-12-26 10:04:23 - les comptesG a jour
+
+2024-12-26 10:04:23 - les clients a jour
+
+2024-12-26 10:04:23 - les fournisseurs a jour
+
+2024-12-26 10:04:23 - Vérification du Journal OD2 ....
+
+2024-12-26 10:04:24 - Journal OD2 equilibré
+
+2024-12-26 10:04:24 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:04:34 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 10:04:34 - temps pour tout importer0,6618749616666667
+
+2024-12-26 10:04:34 - 
+Traitement terminée
+
+2024-12-26 10:11:18 - --------------------------------------------------
+
+2024-12-26 10:11:18 - L'execution a commencé
+
+2024-12-26 10:12:10 - les comptesG a jour
+
+2024-12-26 10:12:10 - les clients a jour
+
+2024-12-26 10:12:10 - les fournisseurs a jour
+
+2024-12-26 10:12:10 - Vérification du Journal OD2 ....
+
+2024-12-26 10:12:11 - Journal OD2 equilibré
+
+2024-12-26 10:12:11 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:12:19 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 10:12:39 - --------------------------------------------------
+
+2024-12-26 10:12:39 - L'execution a commencé
+
+2024-12-26 10:13:48 - les comptesG a jour
+
+2024-12-26 10:13:48 - les clients a jour
+
+2024-12-26 10:13:48 - les fournisseurs a jour
+
+2024-12-26 10:13:48 - Vérification du Journal OD2 ....
+
+2024-12-26 10:13:48 - Journal OD2 equilibré
+
+2024-12-26 10:13:48 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:13:54 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 10:14:20 - --------------------------------------------------
+
+2024-12-26 10:14:21 - L'execution a commencé
+
+2024-12-26 10:15:15 - les comptesG a jour
+
+2024-12-26 10:15:15 - les clients a jour
+
+2024-12-26 10:15:15 - les fournisseurs a jour
+
+2024-12-26 10:15:15 - Vérification du Journal OD2 ....
+
+2024-12-26 10:15:16 - Journal OD2 equilibré
+
+2024-12-26 10:15:16 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:15:22 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 10:27:43 - --------------------------------------------------
+
+2024-12-26 10:27:44 - L'execution a commencé
+
+2024-12-26 10:28:05 - les comptesG a jour
+
+2024-12-26 10:28:05 - les clients a jour
+
+2024-12-26 10:28:05 - les fournisseurs a jour
+
+2024-12-26 10:28:05 - Vérification du Journal OD2 ....
+
+2024-12-26 10:28:05 - Journal OD2 equilibré
+
+2024-12-26 10:28:05 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:28:06 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 10:39:23 - --------------------------------------------------
+
+2024-12-26 10:39:23 - L'execution a commencé
+
+2024-12-26 10:39:28 - les comptesG a jour
+
+2024-12-26 10:39:28 - les clients a jour
+
+2024-12-26 10:39:28 - les fournisseurs a jour
+
+2024-12-26 10:39:28 - Vérification du Journal OD2 ....
+
+2024-12-26 10:39:28 - Journal OD2 equilibré
+
+2024-12-26 10:39:28 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:39:29 - An unexpected error occurred: Unable to cast COM object of type 'System.__ComObject' to interface type 'Objets100cLib.IBOModeleEcritureLigne3'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{4792B8D7-633B-4133-8002-B9BB0DF4BD95}' failed due to the following error: Cette interface n’est pas prise en charge (0x80004002 (E_NOINTERFACE)).
+
+2024-12-26 10:44:55 - --------------------------------------------------
+
+2024-12-26 10:44:55 - L'execution a commencé
+
+2024-12-26 10:44:58 - les comptesG a jour
+
+2024-12-26 10:44:58 - les clients a jour
+
+2024-12-26 10:44:58 - les fournisseurs a jour
+
+2024-12-26 10:44:58 - Vérification du Journal OD2 ....
+
+2024-12-26 10:44:58 - Journal OD2 equilibré
+
+2024-12-26 10:44:58 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:45:00 - An unexpected error occurred: Unable to cast COM object of type 'System.__ComObject' to interface type 'Objets100cLib.IBOModeleEcritureLigne3'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{4792B8D7-633B-4133-8002-B9BB0DF4BD95}' failed due to the following error: Cette interface n’est pas prise en charge (0x80004002 (E_NOINTERFACE)).
+
+2024-12-26 10:45:57 - --------------------------------------------------
+
+2024-12-26 10:45:57 - L'execution a commencé
+
+2024-12-26 10:46:01 - les comptesG a jour
+
+2024-12-26 10:46:01 - les clients a jour
+
+2024-12-26 10:46:01 - les fournisseurs a jour
+
+2024-12-26 10:46:01 - Vérification du Journal OD2 ....
+
+2024-12-26 10:46:01 - Journal OD2 equilibré
+
+2024-12-26 10:46:01 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:46:03 - An unexpected error occurred: Unable to cast COM object of type 'System.__ComObject' to interface type 'Objets100cLib.IBOEcriture3'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{B7CB9E3C-FD42-4F46-9893-9E27B34C8B17}' failed due to the following error: Cette interface n’est pas prise en charge (0x80004002 (E_NOINTERFACE)).
+
+2024-12-26 10:46:31 - --------------------------------------------------
+
+2024-12-26 10:46:31 - L'execution a commencé
+
+2024-12-26 10:46:35 - les comptesG a jour
+
+2024-12-26 10:46:35 - les clients a jour
+
+2024-12-26 10:46:35 - les fournisseurs a jour
+
+2024-12-26 10:46:35 - Vérification du Journal OD2 ....
+
+2024-12-26 10:46:36 - Journal OD2 equilibré
+
+2024-12-26 10:46:36 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:46:37 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 10:47:10 - --------------------------------------------------
+
+2024-12-26 10:47:10 - L'execution a commencé
+
+2024-12-26 10:47:15 - les comptesG a jour
+
+2024-12-26 10:47:15 - les clients a jour
+
+2024-12-26 10:47:15 - les fournisseurs a jour
+
+2024-12-26 10:47:15 - Vérification du Journal OD2 ....
+
+2024-12-26 10:47:15 - Journal OD2 equilibré
+
+2024-12-26 10:47:15 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:47:16 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 10:47:16 - temps pour tout importer0,04812137
+
+2024-12-26 10:47:16 - 
+Traitement terminée
+
+2024-12-26 10:49:34 - --------------------------------------------------
+
+2024-12-26 10:49:35 - L'execution a commencé
+
+2024-12-26 10:49:38 - les comptesG a jour
+
+2024-12-26 10:49:38 - les clients a jour
+
+2024-12-26 10:49:38 - les fournisseurs a jour
+
+2024-12-26 10:49:38 - Vérification du Journal OD2 ....
+
+2024-12-26 10:49:39 - Journal OD2 equilibré
+
+2024-12-26 10:49:39 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:49:40 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 10:50:08 - --------------------------------------------------
+
+2024-12-26 10:50:08 - L'execution a commencé
+
+2024-12-26 10:50:13 - les comptesG a jour
+
+2024-12-26 10:50:13 - les clients a jour
+
+2024-12-26 10:50:13 - les fournisseurs a jour
+
+2024-12-26 10:50:13 - Vérification du Journal OD2 ....
+
+2024-12-26 10:50:13 - Journal OD2 equilibré
+
+2024-12-26 10:50:13 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:50:37 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 10:50:51 - --------------------------------------------------
+
+2024-12-26 10:50:51 - L'execution a commencé
+
+2024-12-26 10:52:25 - les comptesG a jour
+
+2024-12-26 10:52:25 - les clients a jour
+
+2024-12-26 10:52:25 - les fournisseurs a jour
+
+2024-12-26 10:52:25 - Vérification du Journal OD2 ....
+
+2024-12-26 10:52:26 - Journal OD2 equilibré
+
+2024-12-26 10:52:26 - Journal OD2 commencé l'écriture
+
+2024-12-26 10:52:47 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 10:52:47 - temps pour tout importer1,4625730483333332
+
+2024-12-26 10:52:47 - 
+Traitement terminée
+
+2024-12-26 11:02:44 - --------------------------------------------------
+
+2024-12-26 11:02:44 - L'execution a commencé
+
+2024-12-26 11:02:52 - les comptesG a jour
+
+2024-12-26 11:02:52 - les clients a jour
+
+2024-12-26 11:02:52 - les fournisseurs a jour
+
+2024-12-26 11:02:52 - Vérification du Journal OD2 ....
+
+2024-12-26 11:02:52 - Journal OD2 equilibré
+
+2024-12-26 11:02:52 - Journal OD2 commencé l'écriture
+
+2024-12-26 11:02:54 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 11:03:18 - --------------------------------------------------
+
+2024-12-26 11:03:18 - L'execution a commencé
+
+2024-12-26 11:03:22 - les comptesG a jour
+
+2024-12-26 11:03:22 - les clients a jour
+
+2024-12-26 11:03:22 - les fournisseurs a jour
+
+2024-12-26 11:03:22 - Vérification du Journal OD2 ....
+
+2024-12-26 11:03:22 - Journal OD2 equilibré
+
+2024-12-26 11:03:22 - Journal OD2 commencé l'écriture
+
+2024-12-26 11:03:24 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 11:05:24 - --------------------------------------------------
+
+2024-12-26 11:05:24 - L'execution a commencé
+
+2024-12-26 11:05:27 - les comptesG a jour
+
+2024-12-26 11:05:27 - les clients a jour
+
+2024-12-26 11:05:27 - les fournisseurs a jour
+
+2024-12-26 11:05:27 - Vérification du Journal OD2 ....
+
+2024-12-26 11:05:27 - Journal OD2 equilibré
+
+2024-12-26 11:05:27 - Journal OD2 commencé l'écriture
+
+2024-12-26 11:05:29 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 11:05:29 - temps pour tout importer0,044289561666666664
+
+2024-12-26 11:05:29 - 
+Traitement terminée
+
+2024-12-26 11:06:18 - --------------------------------------------------
+
+2024-12-26 11:06:18 - L'execution a commencé
+
+2024-12-26 11:06:22 - les comptesG a jour
+
+2024-12-26 11:06:22 - les clients a jour
+
+2024-12-26 11:06:22 - les fournisseurs a jour
+
+2024-12-26 11:06:22 - Vérification du Journal OD2 ....
+
+2024-12-26 11:06:22 - Journal OD2 equilibré
+
+2024-12-26 11:06:22 - Journal OD2 commencé l'écriture
+
+2024-12-26 11:06:24 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 11:06:24 - temps pour tout importer0,047566255
+
+2024-12-26 11:06:24 - 
+Traitement terminée
+
+2024-12-26 11:07:36 - --------------------------------------------------
+
+2024-12-26 11:07:36 - L'execution a commencé
+
+2024-12-26 11:07:40 - les comptesG a jour
+
+2024-12-26 11:07:40 - les clients a jour
+
+2024-12-26 11:07:40 - les fournisseurs a jour
+
+2024-12-26 11:07:40 - Vérification du Journal OD2 ....
+
+2024-12-26 11:07:40 - Journal OD2 equilibré
+
+2024-12-26 11:07:40 - Journal OD2 commencé l'écriture
+
+2024-12-26 11:07:42 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 11:07:42 - temps pour tout importer0,046542795
+
+2024-12-26 11:07:42 - 
+Traitement terminée
+
+2024-12-26 11:12:10 - --------------------------------------------------
+
+2024-12-26 11:12:10 - L'execution a commencé
+
+2024-12-26 11:12:15 - les comptesG a jour
+
+2024-12-26 11:12:15 - les clients a jour
+
+2024-12-26 11:12:15 - les fournisseurs a jour
+
+2024-12-26 11:12:15 - Vérification du Journal OD2 ....
+
+2024-12-26 11:12:15 - Journal OD2 equilibré
+
+2024-12-26 11:12:15 - Journal OD2 commencé l'écriture
+
+2024-12-26 11:12:17 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 11:52:38 - --------------------------------------------------
+
+2024-12-26 11:52:38 - L'execution a commencé
+
+2024-12-26 11:52:42 - les comptesG a jour
+
+2024-12-26 11:52:42 - les clients a jour
+
+2024-12-26 11:52:42 - les fournisseurs a jour
+
+2024-12-26 11:52:42 - Vérification du Journal OD2 ....
+
+2024-12-26 11:52:42 - Journal OD2 equilibré
+
+2024-12-26 11:52:42 - Journal OD2 commencé l'écriture
+
+2024-12-26 11:52:42 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 11:54:26 - --------------------------------------------------
+
+2024-12-26 11:54:26 - L'execution a commencé
+
+2024-12-26 11:54:33 - les comptesG a jour
+
+2024-12-26 11:54:33 - les clients a jour
+
+2024-12-26 11:54:33 - les fournisseurs a jour
+
+2024-12-26 11:54:33 - Vérification du Journal OD2 ....
+
+2024-12-26 11:54:33 - Journal OD2 equilibré
+
+2024-12-26 11:54:33 - Journal OD2 commencé l'écriture
+
+2024-12-26 11:54:36 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:01:50 - --------------------------------------------------
+
+2024-12-26 12:01:50 - L'execution a commencé
+
+2024-12-26 12:02:45 - les comptesG a jour
+
+2024-12-26 12:02:45 - les clients a jour
+
+2024-12-26 12:02:45 - les fournisseurs a jour
+
+2024-12-26 12:02:45 - Vérification du Journal OD2 ....
+
+2024-12-26 12:02:47 - Journal OD2 equilibré
+
+2024-12-26 12:02:47 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:03:14 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 12:03:14 - temps pour tout importer0,9063622616666667
+
+2024-12-26 12:03:14 - 
+Traitement terminée
+
+2024-12-26 12:06:17 - --------------------------------------------------
+
+2024-12-26 12:06:17 - L'execution a commencé
+
+2024-12-26 12:07:17 - les comptesG a jour
+
+2024-12-26 12:07:17 - les clients a jour
+
+2024-12-26 12:07:17 - les fournisseurs a jour
+
+2024-12-26 12:07:17 - Vérification du Journal OD2 ....
+
+2024-12-26 12:07:18 - Journal OD2 equilibré
+
+2024-12-26 12:07:18 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:07:25 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:07:43 - --------------------------------------------------
+
+2024-12-26 12:07:43 - L'execution a commencé
+
+2024-12-26 12:08:11 - les comptesG a jour
+
+2024-12-26 12:08:11 - les clients a jour
+
+2024-12-26 12:08:11 - les fournisseurs a jour
+
+2024-12-26 12:08:11 - Vérification du Journal OD2 ....
+
+2024-12-26 12:08:11 - Journal OD2 equilibré
+
+2024-12-26 12:08:11 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:08:13 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:13:04 - --------------------------------------------------
+
+2024-12-26 12:13:04 - L'execution a commencé
+
+2024-12-26 12:13:08 - les comptesG a jour
+
+2024-12-26 12:13:08 - les clients a jour
+
+2024-12-26 12:13:08 - les fournisseurs a jour
+
+2024-12-26 12:13:08 - Vérification du Journal OD2 ....
+
+2024-12-26 12:13:08 - Journal OD2 equilibré
+
+2024-12-26 12:13:08 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:13:09 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:13:21 - --------------------------------------------------
+
+2024-12-26 12:13:21 - L'execution a commencé
+
+2024-12-26 12:13:26 - les comptesG a jour
+
+2024-12-26 12:13:26 - les clients a jour
+
+2024-12-26 12:13:26 - les fournisseurs a jour
+
+2024-12-26 12:13:26 - Vérification du Journal OD2 ....
+
+2024-12-26 12:13:26 - Journal OD2 equilibré
+
+2024-12-26 12:13:26 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:13:28 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:15:15 - --------------------------------------------------
+
+2024-12-26 12:15:15 - L'execution a commencé
+
+2024-12-26 12:15:19 - les comptesG a jour
+
+2024-12-26 12:15:19 - les clients a jour
+
+2024-12-26 12:15:19 - les fournisseurs a jour
+
+2024-12-26 12:15:19 - Vérification du Journal OD2 ....
+
+2024-12-26 12:15:19 - Journal OD2 equilibré
+
+2024-12-26 12:15:19 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:15:21 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:24:30 - --------------------------------------------------
+
+2024-12-26 12:24:30 - L'execution a commencé
+
+2024-12-26 12:24:34 - les comptesG a jour
+
+2024-12-26 12:24:34 - les clients a jour
+
+2024-12-26 12:24:34 - les fournisseurs a jour
+
+2024-12-26 12:24:34 - Vérification du Journal OD2 ....
+
+2024-12-26 12:24:34 - Journal OD2 equilibré
+
+2024-12-26 12:24:34 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:24:36 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:30:10 - --------------------------------------------------
+
+2024-12-26 12:30:10 - L'execution a commencé
+
+2024-12-26 12:32:12 - les comptesG a jour
+
+2024-12-26 12:32:12 - les clients a jour
+
+2024-12-26 12:32:12 - les fournisseurs a jour
+
+2024-12-26 12:32:12 - Vérification du Journal OD2 ....
+
+2024-12-26 12:32:14 - Journal OD2 equilibré
+
+2024-12-26 12:32:14 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:33:12 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 12:33:12 - temps pour tout importer2,265955375
+
+2024-12-26 12:33:12 - 
+Traitement terminée
+
+2024-12-26 12:37:22 - --------------------------------------------------
+
+2024-12-26 12:37:22 - L'execution a commencé
+
+2024-12-26 12:38:18 - les comptesG a jour
+
+2024-12-26 12:38:18 - les clients a jour
+
+2024-12-26 12:38:18 - les fournisseurs a jour
+
+2024-12-26 12:38:18 - Vérification du Journal OD2 ....
+
+2024-12-26 12:38:19 - Journal OD2 equilibré
+
+2024-12-26 12:38:19 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:38:23 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-26 12:39:05 - --------------------------------------------------
+
+2024-12-26 12:39:05 - L'execution a commencé
+
+2024-12-26 12:40:07 - les comptesG a jour
+
+2024-12-26 12:40:07 - les clients a jour
+
+2024-12-26 12:40:07 - les fournisseurs a jour
+
+2024-12-26 12:40:07 - Vérification du Journal OD2 ....
+
+2024-12-26 12:40:08 - Journal OD2 equilibré
+
+2024-12-26 12:40:08 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:40:14 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-26 12:40:43 - --------------------------------------------------
+
+2024-12-26 12:40:43 - L'execution a commencé
+
+2024-12-26 12:41:23 - les comptesG a jour
+
+2024-12-26 12:41:23 - les clients a jour
+
+2024-12-26 12:41:23 - les fournisseurs a jour
+
+2024-12-26 12:41:23 - Vérification du Journal OD2 ....
+
+2024-12-26 12:41:23 - Journal OD2 equilibré
+
+2024-12-26 12:41:23 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:41:23 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-26 12:42:13 - --------------------------------------------------
+
+2024-12-26 12:42:13 - L'execution a commencé
+
+2024-12-26 12:42:17 - les comptesG a jour
+
+2024-12-26 12:42:17 - les clients a jour
+
+2024-12-26 12:42:17 - les fournisseurs a jour
+
+2024-12-26 12:42:17 - Vérification du Journal OD2 ....
+
+2024-12-26 12:42:17 - Journal OD2 equilibré
+
+2024-12-26 12:42:17 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:42:20 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:48:08 - --------------------------------------------------
+
+2024-12-26 12:48:08 - L'execution a commencé
+
+2024-12-26 12:48:12 - les comptesG a jour
+
+2024-12-26 12:48:12 - les clients a jour
+
+2024-12-26 12:48:12 - les fournisseurs a jour
+
+2024-12-26 12:48:12 - Vérification du Journal OD2 ....
+
+2024-12-26 12:48:12 - Journal OD2 equilibré
+
+2024-12-26 12:48:12 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:48:13 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:52:02 - --------------------------------------------------
+
+2024-12-26 12:52:02 - L'execution a commencé
+
+2024-12-26 12:52:05 - les comptesG a jour
+
+2024-12-26 12:52:05 - les clients a jour
+
+2024-12-26 12:52:05 - les fournisseurs a jour
+
+2024-12-26 12:52:05 - Vérification du Journal OD2 ....
+
+2024-12-26 12:52:06 - Journal OD2 equilibré
+
+2024-12-26 12:52:06 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:52:06 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 12:52:21 - --------------------------------------------------
+
+2024-12-26 12:52:21 - L'execution a commencé
+
+2024-12-26 12:52:24 - les comptesG a jour
+
+2024-12-26 12:52:24 - les clients a jour
+
+2024-12-26 12:52:24 - les fournisseurs a jour
+
+2024-12-26 12:52:24 - Vérification du Journal OD2 ....
+
+2024-12-26 12:52:24 - Journal OD2 equilibré
+
+2024-12-26 12:52:24 - Journal OD2 commencé l'écriture
+
+2024-12-26 12:52:25 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-26 14:22:55 - --------------------------------------------------
+
+2024-12-26 14:22:55 - L'execution a commencé
+
+2024-12-26 14:25:08 - les comptesG a jour
+
+2024-12-26 14:25:08 - les clients a jour
+
+2024-12-26 14:25:08 - les fournisseurs a jour
+
+2024-12-26 14:25:08 - Vérification du Journal OD2 ....
+
+2024-12-26 14:25:09 - Journal OD2 equilibré
+
+2024-12-26 14:25:09 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:25:09 - An unexpected error occurred: Marqueur illégal !
+
+2024-12-26 14:25:28 - --------------------------------------------------
+
+2024-12-26 14:25:28 - L'execution a commencé
+
+2024-12-26 14:26:52 - les comptesG a jour
+
+2024-12-26 14:26:52 - les clients a jour
+
+2024-12-26 14:26:52 - les fournisseurs a jour
+
+2024-12-26 14:26:52 - Vérification du Journal OD2 ....
+
+2024-12-26 14:26:54 - Journal OD2 equilibré
+
+2024-12-26 14:26:54 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:26:54 - An unexpected error occurred: Marqueur illégal !
+
+2024-12-26 14:42:58 - --------------------------------------------------
+
+2024-12-26 14:42:58 - L'execution a commencé
+
+2024-12-26 14:44:17 - les comptesG a jour
+
+2024-12-26 14:44:17 - les clients a jour
+
+2024-12-26 14:44:17 - les fournisseurs a jour
+
+2024-12-26 14:44:17 - Vérification du Journal OD2 ....
+
+2024-12-26 14:44:18 - Journal OD2 equilibré
+
+2024-12-26 14:44:18 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:44:18 - An unexpected error occurred: Marqueur illégal !
+
+2024-12-26 14:44:58 - --------------------------------------------------
+
+2024-12-26 14:44:58 - L'execution a commencé
+
+2024-12-26 14:45:56 - les comptesG a jour
+
+2024-12-26 14:45:56 - les clients a jour
+
+2024-12-26 14:45:56 - les fournisseurs a jour
+
+2024-12-26 14:45:56 - Vérification du Journal OD2 ....
+
+2024-12-26 14:45:56 - Journal OD2 equilibré
+
+2024-12-26 14:45:56 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:45:57 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-26 14:46:20 - --------------------------------------------------
+
+2024-12-26 14:46:20 - L'execution a commencé
+
+2024-12-26 14:46:52 - les comptesG a jour
+
+2024-12-26 14:46:52 - les clients a jour
+
+2024-12-26 14:46:52 - les fournisseurs a jour
+
+2024-12-26 14:46:52 - Vérification du Journal OD2 ....
+
+2024-12-26 14:46:52 - Journal OD2 equilibré
+
+2024-12-26 14:46:52 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:46:52 - An unexpected error occurred: Marqueur illégal !
+
+2024-12-26 14:48:30 - --------------------------------------------------
+
+2024-12-26 14:48:30 - L'execution a commencé
+
+2024-12-26 14:48:33 - les comptesG a jour
+
+2024-12-26 14:48:33 - les clients a jour
+
+2024-12-26 14:48:33 - les fournisseurs a jour
+
+2024-12-26 14:48:33 - Vérification du Journal OD2 ....
+
+2024-12-26 14:48:33 - Journal OD2 equilibré
+
+2024-12-26 14:48:33 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:48:33 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-26 14:50:13 - --------------------------------------------------
+
+2024-12-26 14:50:13 - L'execution a commencé
+
+2024-12-26 14:50:16 - les comptesG a jour
+
+2024-12-26 14:50:16 - les clients a jour
+
+2024-12-26 14:50:16 - les fournisseurs a jour
+
+2024-12-26 14:50:16 - Vérification du Journal OD2 ....
+
+2024-12-26 14:50:17 - Journal OD2 equilibré
+
+2024-12-26 14:50:17 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:50:17 - An unexpected error occurred: La propriété Journal obligatoire du processus n'a pas été définie !
+
+2024-12-26 14:51:20 - --------------------------------------------------
+
+2024-12-26 14:51:20 - L'execution a commencé
+
+2024-12-26 14:51:24 - les comptesG a jour
+
+2024-12-26 14:51:24 - les clients a jour
+
+2024-12-26 14:51:24 - les fournisseurs a jour
+
+2024-12-26 14:51:24 - Vérification du Journal OD2 ....
+
+2024-12-26 14:51:24 - Journal OD2 equilibré
+
+2024-12-26 14:51:24 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:51:24 - An unexpected error occurred: La propriété Journal obligatoire du processus n'a pas été définie !
+
+2024-12-26 14:52:15 - --------------------------------------------------
+
+2024-12-26 14:52:15 - L'execution a commencé
+
+2024-12-26 14:52:18 - les comptesG a jour
+
+2024-12-26 14:52:18 - les clients a jour
+
+2024-12-26 14:52:18 - les fournisseurs a jour
+
+2024-12-26 14:52:18 - Vérification du Journal OD2 ....
+
+2024-12-26 14:52:18 - Journal OD2 equilibré
+
+2024-12-26 14:52:18 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:52:18 - An unexpected error occurred: La propriété Journal obligatoire du processus n'a pas été définie !
+
+2024-12-26 14:58:05 - --------------------------------------------------
+
+2024-12-26 14:58:05 - L'execution a commencé
+
+2024-12-26 14:58:09 - les comptesG a jour
+
+2024-12-26 14:58:09 - les clients a jour
+
+2024-12-26 14:58:09 - les fournisseurs a jour
+
+2024-12-26 14:58:09 - Vérification du Journal OD2 ....
+
+2024-12-26 14:58:10 - Journal OD2 equilibré
+
+2024-12-26 14:58:10 - Journal OD2 commencé l'écriture
+
+2024-12-26 14:58:12 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-26 14:58:12 - temps pour tout importer0,053055375
+
+2024-12-26 14:58:12 - 
+Traitement terminée
+
+2024-12-27 09:31:54 - --------------------------------------------------
+
+2024-12-27 09:31:54 - L'execution a commencé
+
+2024-12-27 09:33:00 - les comptesG a jour
+
+2024-12-27 09:33:00 - les clients a jour
+
+2024-12-27 09:33:00 - les fournisseurs a jour
+
+2024-12-27 09:33:00 - Vérification du Journal OD2 ....
+
+2024-12-27 09:33:01 - Journal OD2 equilibré
+
+2024-12-27 09:33:01 - Journal OD2 commencé l'écriture
+
+2024-12-27 09:33:01 - An unexpected error occurred: Marqueur illégal !
+
+2024-12-27 09:34:12 - --------------------------------------------------
+
+2024-12-27 09:34:12 - L'execution a commencé
+
+2024-12-27 09:34:51 - les comptesG a jour
+
+2024-12-27 09:34:51 - les clients a jour
+
+2024-12-27 09:34:51 - les fournisseurs a jour
+
+2024-12-27 09:34:51 - Vérification du Journal OD2 ....
+
+2024-12-27 09:34:51 - Journal OD2 equilibré
+
+2024-12-27 09:34:51 - Journal OD2 commencé l'écriture
+
+2024-12-27 09:34:51 - An unexpected error occurred: La propriété Journal obligatoire du processus n'a pas été définie !
+
+2024-12-27 09:36:06 - --------------------------------------------------
+
+2024-12-27 09:36:06 - L'execution a commencé
+
+2024-12-27 09:36:11 - les comptesG a jour
+
+2024-12-27 09:36:11 - les clients a jour
+
+2024-12-27 09:36:11 - les fournisseurs a jour
+
+2024-12-27 09:36:11 - Vérification du Journal OD2 ....
+
+2024-12-27 09:36:12 - Journal OD2 equilibré
+
+2024-12-27 09:36:12 - Journal OD2 commencé l'écriture
+
+2024-12-27 09:36:12 - An unexpected error occurred: La propriété Journal obligatoire du processus n'a pas été définie !
+
+2024-12-27 09:38:04 - --------------------------------------------------
+
+2024-12-27 09:38:04 - L'execution a commencé
+
+2024-12-27 09:38:08 - les comptesG a jour
+
+2024-12-27 09:38:08 - les clients a jour
+
+2024-12-27 09:38:08 - les fournisseurs a jour
+
+2024-12-27 09:38:08 - Vérification du Journal OD2 ....
+
+2024-12-27 09:38:08 - Journal OD2 equilibré
+
+2024-12-27 09:38:08 - Journal OD2 commencé l'écriture
+
+2024-12-27 09:38:08 - An unexpected error occurred: La propriété Journal obligatoire du processus n'a pas été définie !
+
+2024-12-27 09:39:20 - --------------------------------------------------
+
+2024-12-27 09:39:20 - L'execution a commencé
+
+2024-12-27 09:40:01 - les comptesG a jour
+
+2024-12-27 09:40:01 - les clients a jour
+
+2024-12-27 09:40:01 - les fournisseurs a jour
+
+2024-12-27 09:40:01 - Vérification du Journal OD2 ....
+
+2024-12-27 09:40:01 - Journal OD2 equilibré
+
+2024-12-27 09:40:01 - Journal OD2 commencé l'écriture
+
+2024-12-27 09:40:01 - An unexpected error occurred: La propriété Journal obligatoire du processus n'a pas été définie !
+
+2024-12-27 09:40:08 - --------------------------------------------------
+
+2024-12-27 09:40:08 - L'execution a commencé
+
+2024-12-27 09:40:48 - --------------------------------------------------
+
+2024-12-27 09:40:48 - L'execution a commencé
+
+2024-12-27 09:41:00 - les comptesG a jour
+
+2024-12-27 09:41:00 - les clients a jour
+
+2024-12-27 09:41:00 - les fournisseurs a jour
+
+2024-12-27 09:41:00 - Vérification du Journal OD2 ....
+
+2024-12-27 09:41:00 - Journal OD2 equilibré
+
+2024-12-27 09:41:00 - Journal OD2 commencé l'écriture
+
+2024-12-27 09:41:13 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 09:41:13 - temps pour tout importer0,24071766
+
+2024-12-27 09:41:13 - 
+Traitement terminée
+
+2024-12-27 10:12:56 - --------------------------------------------------
+
+2024-12-27 10:12:56 - L'execution a commencé
+
+2024-12-27 10:13:01 - les comptesG a jour
+
+2024-12-27 10:13:01 - les clients a jour
+
+2024-12-27 10:13:01 - les fournisseurs a jour
+
+2024-12-27 10:13:01 - Vérification du Journal OD2 ....
+
+2024-12-27 10:13:01 - Journal OD2 equilibré
+
+2024-12-27 10:13:01 - Journal OD2 commencé l'écriture
+
+2024-12-27 10:13:03 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 10:13:03 - temps pour tout importer0,04857097
+
+2024-12-27 10:13:03 - 
+Traitement terminée
+
+2024-12-27 10:40:52 - --------------------------------------------------
+
+2024-12-27 10:40:52 - L'execution a commencé
+
+2024-12-27 10:42:34 - les comptesG a jour
+
+2024-12-27 10:42:34 - les clients a jour
+
+2024-12-27 10:42:34 - les fournisseurs a jour
+
+2024-12-27 10:42:34 - Vérification du Journal OD2 ....
+
+2024-12-27 10:42:35 - Journal OD2 equilibré
+
+2024-12-27 10:42:35 - Journal OD2 commencé l'écriture
+
+2024-12-27 10:42:44 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 10:42:44 - temps pour tout importer1,0086673166666666
+
+2024-12-27 10:42:44 - 
+Traitement terminée
+
+2024-12-27 11:05:09 - --------------------------------------------------
+
+2024-12-27 11:05:09 - L'execution a commencé
+
+2024-12-27 11:06:08 - les comptesG a jour
+
+2024-12-27 11:06:08 - les clients a jour
+
+2024-12-27 11:06:08 - les fournisseurs a jour
+
+2024-12-27 11:06:08 - Vérification du Journal OD2 ....
+
+2024-12-27 11:06:09 - Journal OD2 equilibré
+
+2024-12-27 11:06:09 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:06:09 - An unexpected error occurred: Modification impossible : la pièce n'est pas vide !
+
+2024-12-27 11:14:30 - --------------------------------------------------
+
+2024-12-27 11:14:30 - L'execution a commencé
+
+2024-12-27 11:15:29 - --------------------------------------------------
+
+2024-12-27 11:15:29 - L'execution a commencé
+
+2024-12-27 11:16:22 - les comptesG a jour
+
+2024-12-27 11:16:22 - les clients a jour
+
+2024-12-27 11:16:22 - les fournisseurs a jour
+
+2024-12-27 11:16:22 - Vérification du Journal OD2 ....
+
+2024-12-27 11:16:24 - Journal OD2 equilibré
+
+2024-12-27 11:16:24 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:16:52 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 11:16:52 - temps pour tout importer0,9153385833333333
+
+2024-12-27 11:16:52 - 
+Traitement terminée
+
+2024-12-27 11:21:03 - --------------------------------------------------
+
+2024-12-27 11:21:03 - L'execution a commencé
+
+2024-12-27 11:22:02 - les comptesG a jour
+
+2024-12-27 11:22:02 - les clients a jour
+
+2024-12-27 11:22:02 - les fournisseurs a jour
+
+2024-12-27 11:22:02 - Vérification du Journal OD2 ....
+
+2024-12-27 11:22:02 - Journal OD2 equilibré
+
+2024-12-27 11:22:02 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:22:02 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 11:31:36 - --------------------------------------------------
+
+2024-12-27 11:31:36 - L'execution a commencé
+
+2024-12-27 11:32:52 - les comptesG a jour
+
+2024-12-27 11:32:52 - les clients a jour
+
+2024-12-27 11:32:52 - les fournisseurs a jour
+
+2024-12-27 11:32:52 - Vérification du Journal OD2 ....
+
+2024-12-27 11:32:53 - Journal OD2 equilibré
+
+2024-12-27 11:32:53 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:33:08 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-27 11:35:03 - --------------------------------------------------
+
+2024-12-27 11:35:03 - L'execution a commencé
+
+2024-12-27 11:35:35 - les comptesG a jour
+
+2024-12-27 11:35:35 - les clients a jour
+
+2024-12-27 11:35:35 - les fournisseurs a jour
+
+2024-12-27 11:35:35 - Vérification du Journal OD2 ....
+
+2024-12-27 11:35:35 - Journal OD2 equilibré
+
+2024-12-27 11:35:35 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:35:35 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-27 11:35:52 - --------------------------------------------------
+
+2024-12-27 11:35:52 - L'execution a commencé
+
+2024-12-27 11:35:55 - les comptesG a jour
+
+2024-12-27 11:35:55 - les clients a jour
+
+2024-12-27 11:35:55 - les fournisseurs a jour
+
+2024-12-27 11:35:55 - Vérification du Journal OD2 ....
+
+2024-12-27 11:35:55 - Journal OD2 equilibré
+
+2024-12-27 11:35:55 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:35:57 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-27 11:36:07 - --------------------------------------------------
+
+2024-12-27 11:36:07 - L'execution a commencé
+
+2024-12-27 11:36:11 - les comptesG a jour
+
+2024-12-27 11:36:11 - les clients a jour
+
+2024-12-27 11:36:11 - les fournisseurs a jour
+
+2024-12-27 11:36:11 - Vérification du Journal OD2 ....
+
+2024-12-27 11:36:11 - Journal OD2 equilibré
+
+2024-12-27 11:36:11 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:36:12 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 11:36:12 - temps pour tout importer0,043916963333333336
+
+2024-12-27 11:36:12 - 
+Traitement terminée
+
+2024-12-27 11:38:05 - --------------------------------------------------
+
+2024-12-27 11:38:05 - L'execution a commencé
+
+2024-12-27 11:38:10 - les comptesG a jour
+
+2024-12-27 11:38:10 - les clients a jour
+
+2024-12-27 11:38:10 - les fournisseurs a jour
+
+2024-12-27 11:38:10 - Vérification du Journal OD2 ....
+
+2024-12-27 11:38:10 - Journal OD2 equilibré
+
+2024-12-27 11:38:10 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:38:12 - An unexpected error occurred: Paramètre incorrect.
+
+
+2024-12-27 11:39:56 - --------------------------------------------------
+
+2024-12-27 11:39:56 - L'execution a commencé
+
+2024-12-27 11:40:17 - les comptesG a jour
+
+2024-12-27 11:40:17 - les clients a jour
+
+2024-12-27 11:40:17 - les fournisseurs a jour
+
+2024-12-27 11:40:17 - Vérification du Journal OD2 ....
+
+2024-12-27 11:40:18 - Journal OD2 equilibré
+
+2024-12-27 11:40:18 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:40:43 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 11:40:43 - temps pour tout importer0,49692620833333334
+
+2024-12-27 11:40:43 - 
+Traitement terminée
+
+2024-12-27 11:41:37 - --------------------------------------------------
+
+2024-12-27 11:41:37 - L'execution a commencé
+
+2024-12-27 11:41:42 - les comptesG a jour
+
+2024-12-27 11:41:42 - les clients a jour
+
+2024-12-27 11:41:42 - les fournisseurs a jour
+
+2024-12-27 11:41:42 - Vérification du Journal OD2 ....
+
+2024-12-27 11:41:42 - Journal OD2 equilibré
+
+2024-12-27 11:41:42 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:41:44 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 11:41:44 - temps pour tout importer0,05350308333333333
+
+2024-12-27 11:41:44 - 
+Traitement terminée
+
+2024-12-27 11:57:36 - --------------------------------------------------
+
+2024-12-27 11:57:36 - L'execution a commencé
+
+2024-12-27 11:58:25 - les comptesG a jour
+
+2024-12-27 11:58:25 - les clients a jour
+
+2024-12-27 11:58:25 - les fournisseurs a jour
+
+2024-12-27 11:58:25 - Vérification du Journal OD2 ....
+
+2024-12-27 11:58:26 - Journal OD2 equilibré
+
+2024-12-27 11:58:26 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:58:35 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 11:58:35 - temps pour tout importer0,5212769133333334
+
+2024-12-27 11:58:35 - 
+Traitement terminée
+
+2024-12-27 11:59:04 - --------------------------------------------------
+
+2024-12-27 11:59:04 - L'execution a commencé
+
+2024-12-27 11:59:55 - les comptesG a jour
+
+2024-12-27 11:59:55 - les clients a jour
+
+2024-12-27 11:59:55 - les fournisseurs a jour
+
+2024-12-27 11:59:55 - Vérification du Journal OD2 ....
+
+2024-12-27 11:59:55 - Journal OD2 equilibré
+
+2024-12-27 11:59:55 - Journal OD2 commencé l'écriture
+
+2024-12-27 11:59:59 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 11:59:59 - temps pour tout importer0,43186309166666664
+
+2024-12-27 11:59:59 - 
+Traitement terminée
+
+2024-12-27 12:00:50 - --------------------------------------------------
+
+2024-12-27 12:00:50 - L'execution a commencé
+
+2024-12-27 12:02:06 - les comptesG a jour
+
+2024-12-27 12:02:06 - les clients a jour
+
+2024-12-27 12:02:06 - les fournisseurs a jour
+
+2024-12-27 12:02:06 - Vérification du Journal OD2 ....
+
+2024-12-27 12:02:07 - Journal OD2 equilibré
+
+2024-12-27 12:02:07 - Journal OD2 commencé l'écriture
+
+2024-12-27 12:03:10 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 12:03:10 - temps pour tout importer1,945760075
+
+2024-12-27 12:03:10 - 
+Traitement terminée
+
+2024-12-27 12:47:55 - --------------------------------------------------
+
+2024-12-27 12:47:55 - L'execution a commencé
+
+2024-12-27 12:48:59 - les comptesG a jour
+
+2024-12-27 12:48:59 - les clients a jour
+
+2024-12-27 12:48:59 - les fournisseurs a jour
+
+2024-12-27 12:48:59 - Vérification du Journal OD2 ....
+
+2024-12-27 12:49:01 - Journal OD2 equilibré
+
+2024-12-27 12:49:01 - Journal OD2 commencé l'écriture
+
+2024-12-27 12:49:08 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 12:49:08 - temps pour tout importer0,5053605516666667
+
+2024-12-27 12:49:08 - 
+Traitement terminée
+
+2024-12-27 12:57:39 - --------------------------------------------------
+
+2024-12-27 12:57:39 - L'execution a commencé
+
+2024-12-27 12:58:55 - les comptesG a jour
+
+2024-12-27 12:58:55 - les clients a jour
+
+2024-12-27 12:58:55 - les fournisseurs a jour
+
+2024-12-27 12:58:55 - Vérification du Journal OD2 ....
+
+2024-12-27 12:58:56 - Journal OD2 equilibré
+
+2024-12-27 12:58:56 - Journal OD2 commencé l'écriture
+
+2024-12-27 12:59:04 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 12:59:04 - temps pour tout importer0,7046534383333334
+
+2024-12-27 12:59:04 - 
+Traitement terminée
+
+2024-12-27 13:08:59 - --------------------------------------------------
+
+2024-12-27 13:08:59 - L'execution a commencé
+
+2024-12-27 13:09:04 - les comptesG a jour
+
+2024-12-27 13:09:04 - les clients a jour
+
+2024-12-27 13:09:04 - les fournisseurs a jour
+
+2024-12-27 13:09:04 - Vérification du Journal OD2 ....
+
+2024-12-27 13:09:04 - Journal OD2 equilibré
+
+2024-12-27 13:09:04 - Journal OD2 commencé l'écriture
+
+2024-12-27 13:09:06 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 13:09:06 - temps pour tout importer0,04581307833333333
+
+2024-12-27 13:09:06 - 
+Traitement terminée
+
+2024-12-27 13:40:13 - --------------------------------------------------
+
+2024-12-27 13:40:13 - L'execution a commencé
+
+2024-12-27 13:40:42 - les comptesG a jour
+
+2024-12-27 13:40:42 - les clients a jour
+
+2024-12-27 13:40:42 - les fournisseurs a jour
+
+2024-12-27 13:40:42 - Journal OD2 commencé l'écriture
+
+2024-12-27 13:40:43 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 13:40:43 - temps pour tout importer0,029986043333333334
+
+2024-12-27 13:40:43 - 
+Traitement terminée
+
+2024-12-27 15:36:17 - --------------------------------------------------
+
+2024-12-27 15:36:17 - L'execution a commencé
+
+2024-12-27 15:37:03 - les comptesG a jour
+
+2024-12-27 15:37:03 - les clients a jour
+
+2024-12-27 15:37:03 - les fournisseurs a jour
+
+2024-12-27 15:37:03 - Journal OD2 commencé l'écriture
+
+2024-12-27 15:37:03 - An unexpected error occurred: Modification impossible : la pièce n'est pas vide !
+
+2024-12-27 15:41:55 - --------------------------------------------------
+
+2024-12-27 15:41:55 - L'execution a commencé
+
+2024-12-27 15:42:03 - les comptesG a jour
+
+2024-12-27 15:42:03 - les clients a jour
+
+2024-12-27 15:42:03 - les fournisseurs a jour
+
+2024-12-27 15:42:03 - Journal OD2 commencé l'écriture
+
+2024-12-27 15:42:05 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 15:42:05 - temps pour tout importer0,05748535
+
+2024-12-27 15:42:05 - 
+Traitement terminée
+
+2024-12-27 15:45:27 - --------------------------------------------------
+
+2024-12-27 15:45:27 - L'execution a commencé
+
+2024-12-27 15:46:24 - les comptesG a jour
+
+2024-12-27 15:46:24 - les clients a jour
+
+2024-12-27 15:46:24 - les fournisseurs a jour
+
+2024-12-27 15:46:24 - Journal OD2 commencé l'écriture
+
+2024-12-27 15:46:32 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 15:46:32 - temps pour tout importer0,550136695
+
+2024-12-27 15:46:32 - 
+Traitement terminée
+
+2024-12-27 16:12:39 - --------------------------------------------------
+
+2024-12-27 16:12:39 - L'execution a commencé
+
+2024-12-27 16:15:18 - les comptesG a jour
+
+2024-12-27 16:15:18 - les clients a jour
+
+2024-12-27 16:15:18 - les fournisseurs a jour
+
+2024-12-27 16:15:19 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:15:51 - --------------------------------------------------
+
+2024-12-27 16:15:51 - L'execution a commencé
+
+2024-12-27 16:16:04 - les comptesG a jour
+
+2024-12-27 16:16:04 - les clients a jour
+
+2024-12-27 16:16:04 - les fournisseurs a jour
+
+2024-12-27 16:16:04 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:16:05 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:18:40 - --------------------------------------------------
+
+2024-12-27 16:18:40 - L'execution a commencé
+
+2024-12-27 16:18:45 - les comptesG a jour
+
+2024-12-27 16:18:45 - les clients a jour
+
+2024-12-27 16:18:45 - les fournisseurs a jour
+
+2024-12-27 16:18:45 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:18:47 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:22:15 - --------------------------------------------------
+
+2024-12-27 16:22:15 - L'execution a commencé
+
+2024-12-27 16:22:20 - les comptesG a jour
+
+2024-12-27 16:22:20 - les clients a jour
+
+2024-12-27 16:22:20 - les fournisseurs a jour
+
+2024-12-27 16:22:20 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:22:22 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:24:11 - --------------------------------------------------
+
+2024-12-27 16:24:11 - L'execution a commencé
+
+2024-12-27 16:25:04 - les comptesG a jour
+
+2024-12-27 16:25:04 - les clients a jour
+
+2024-12-27 16:25:04 - les fournisseurs a jour
+
+2024-12-27 16:25:04 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:25:10 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:27:17 - --------------------------------------------------
+
+2024-12-27 16:27:18 - L'execution a commencé
+
+2024-12-27 16:28:04 - les comptesG a jour
+
+2024-12-27 16:28:04 - les clients a jour
+
+2024-12-27 16:28:04 - les fournisseurs a jour
+
+2024-12-27 16:28:04 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:28:05 - An unexpected error occurred: Modification impossible : la pièce n'est pas vide !
+
+2024-12-27 16:28:30 - --------------------------------------------------
+
+2024-12-27 16:28:30 - L'execution a commencé
+
+2024-12-27 16:29:18 - les comptesG a jour
+
+2024-12-27 16:29:18 - les clients a jour
+
+2024-12-27 16:29:18 - les fournisseurs a jour
+
+2024-12-27 16:29:18 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:29:23 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:32:29 - --------------------------------------------------
+
+2024-12-27 16:32:29 - L'execution a commencé
+
+2024-12-27 16:32:33 - les comptesG a jour
+
+2024-12-27 16:32:33 - les clients a jour
+
+2024-12-27 16:32:33 - les fournisseurs a jour
+
+2024-12-27 16:32:33 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:32:33 - La pièce n'est pas soldée !System.__ComObject
+
+2024-12-27 16:32:33 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 16:32:33 - temps pour tout importer0,023706175
+
+2024-12-27 16:32:33 - 
+Traitement terminée
+
+2024-12-27 16:33:03 - --------------------------------------------------
+
+2024-12-27 16:33:03 - L'execution a commencé
+
+2024-12-27 16:33:08 - les comptesG a jour
+
+2024-12-27 16:33:08 - les clients a jour
+
+2024-12-27 16:33:08 - les fournisseurs a jour
+
+2024-12-27 16:33:08 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:33:08 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:35:49 - --------------------------------------------------
+
+2024-12-27 16:35:49 - L'execution a commencé
+
+2024-12-27 16:36:13 - les comptesG a jour
+
+2024-12-27 16:36:13 - les clients a jour
+
+2024-12-27 16:36:13 - les fournisseurs a jour
+
+2024-12-27 16:36:13 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:36:13 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:36:46 - --------------------------------------------------
+
+2024-12-27 16:36:46 - L'execution a commencé
+
+2024-12-27 16:37:19 - les comptesG a jour
+
+2024-12-27 16:37:19 - les clients a jour
+
+2024-12-27 16:37:19 - les fournisseurs a jour
+
+2024-12-27 16:37:19 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:37:20 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:37:58 - --------------------------------------------------
+
+2024-12-27 16:37:58 - L'execution a commencé
+
+2024-12-27 16:38:50 - les comptesG a jour
+
+2024-12-27 16:38:50 - les clients a jour
+
+2024-12-27 16:38:50 - les fournisseurs a jour
+
+2024-12-27 16:38:50 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:38:52 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:39:34 - --------------------------------------------------
+
+2024-12-27 16:39:34 - L'execution a commencé
+
+2024-12-27 16:40:24 - les comptesG a jour
+
+2024-12-27 16:40:24 - les clients a jour
+
+2024-12-27 16:40:24 - les fournisseurs a jour
+
+2024-12-27 16:40:24 - Vérification du Journal OD2 ....
+
+2024-12-27 16:40:25 - Journal OD2 equilibré
+
+2024-12-27 16:40:25 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:40:25 - An unexpected error occurred: Impossible d'exécuter le processus, veuillez consulter la liste d'erreurs !
+
+2024-12-27 16:40:42 - --------------------------------------------------
+
+2024-12-27 16:40:42 - L'execution a commencé
+
+2024-12-27 16:45:28 - --------------------------------------------------
+
+2024-12-27 16:45:28 - L'execution a commencé
+
+2024-12-27 16:45:33 - les comptesG a jour
+
+2024-12-27 16:45:33 - les clients a jour
+
+2024-12-27 16:45:33 - les fournisseurs a jour
+
+2024-12-27 16:45:33 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:45:34 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 16:45:34 - temps pour tout importer0,04638094833333333
+
+2024-12-27 16:45:34 - 
+Traitement terminée
+
+2024-12-27 16:45:46 - --------------------------------------------------
+
+2024-12-27 16:45:46 - L'execution a commencé
+
+2024-12-27 16:45:52 - les comptesG a jour
+
+2024-12-27 16:45:52 - les clients a jour
+
+2024-12-27 16:45:52 - les fournisseurs a jour
+
+2024-12-27 16:45:52 - Journal OD2 commencé l'écriture
+
+2024-12-27 16:45:54 - Journal OD2 a fini l'insertion des ecritures
+
+2024-12-27 16:45:54 - temps pour tout importer0,05374205
+
+2024-12-27 16:45:54 - 
 Traitement terminée
 

@@ -14,7 +14,11 @@ using System.Reflection.Metadata;
     static async Task Main(string[] args)
     {
         int currentline = 0;
-        string logFilePath = "logfile.txt";
+        // Get the directory where the executable is running
+        string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+        // Set the log file path to the same directory as the executable
+        string logFilePath = Path.Combine(exeDirectory, "logfile.txt");
 
         try
         {
@@ -35,6 +39,7 @@ using System.Reflection.Metadata;
             string journalColumn = configuration["Journal"];
             string numCompteColumn = configuration["numcompte"];
             string dateColumn = configuration["Date"];
+            string dateSaisieColumn = configuration["DateSaisie"];
             string compteGColumn = configuration["CompteG"];
             string referenceColumn  = configuration["Reference"];
              string compteTiersColumn = configuration["CompteTiers"];
@@ -42,6 +47,8 @@ using System.Reflection.Metadata;
              string montantColumn = configuration["Montant"];
             string NomCompteColumn = configuration["Nom_Compte"];
             string typeEcriture = configuration["TypeEcriture"];
+            string jrnalLineColumn = configuration["jrnal_Line"];
+            string nFactureColumn = configuration["Nfacture"];
             string scriptLink = configuration["scriptLink"];
             string Dbuser = configuration["Dbuser"];
             string userPassword = configuration["userPassword"];
@@ -49,12 +56,14 @@ using System.Reflection.Metadata;
             string server = configuration["server"];
             string erreur = "";
             bool success = true;
-
+            string nPieceColumn = configuration["NPiece"];
 
             string connectionString = "Server="+server
                 +";Database="+db+";User Id="+ Dbuser + ";Password="+ userPassword+"; ";
             string sqlScript = File.ReadAllText(scriptLink); // Read the SQL script from the file.
+           
             ExecuteSqlScript(connectionString, sqlScript);
+          
             Console.WriteLine("Le script SQL a été exécuté avec succès.");
 
             Dictionary<String,String> lstCompteG = new Dictionary<String,String>();
@@ -67,8 +76,8 @@ using System.Reflection.Metadata;
             string[] lines = File.ReadAllLines(fileText);
     
              foreach (string line in lines.Skip(1))
-            {
-                // Split each line into columns by comma
+             {
+                 // Split each line into columns by comma
                 string[] columns = line.Split('|');
  
                 if (!lstCompteG.ContainsKey(columns[int.Parse(compteGColumn)]))
@@ -92,7 +101,7 @@ using System.Reflection.Metadata;
                     }
                 }   
              
-            }
+             }
                   foreach (string line in lines.Skip(1))
                  {
                     // Split each line into columns by comma
@@ -167,36 +176,73 @@ using System.Reflection.Metadata;
                 }
                 WriteToLog(logFilePath, "les fournisseurs a jour");
 
+
+
+
                 //Console.WriteLine("--------------------Traitement des écritures-------------------");
 
 
+                /*
+ 
 
-
-
-             
                 foreach (string journalItem in Journals)
                  {
-                    WriteToLog(logFilePath, "Véfication du Journal " + journalItem + " ....");
-                    List<DateOnly> uniqueDates = new List<DateOnly>();
-                    
+                    Dictionary<int, HashSet<int>> uniqueDates = new Dictionary<int, HashSet<int>>();
+                    WriteToLog(logFilePath, "Vérification du Journal " + journalItem + " ....");
+
                     foreach (string line in lines.Skip(1))
                     {
-                        // Split each line into columns by comma
+                        // Split each line into columns by '|'
                         string[] columns = line.Split('|');
-                        if (journalItem.Trim() == columns[int.Parse(journalColumn)].Trim()) {
-                            if (!uniqueDates.Contains(DateOnly.ParseExact(FormatDate(columns[int.Parse(dateColumn)]), "dd/MM/yyyy", null))
-          &&                    DateOnly.ParseExact(FormatDate(columns[int.Parse(dateColumn)]), "dd/MM/yyyy", null).Year >= 2020)
+                         if (journalItem.Trim() == columns[int.Parse(journalColumn)].Trim())
+                        {
+
+
+                             // Extract the year and month
+                            // Extract the month (first 2 digits)
+                            int month = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(0, 3));
+
+                            // Extract the year (remaining digits)
+                            int year = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(3));
+
+                            // Check if the year already exists in the dictionary
+                            // Assuming uniqueDates is a Dictionary<int, int>
+                            // Assuming uniqueDates is a Dictionary<int, HashSet<int>>
+                            if (month == 13) month = 12;
+
+                            if (!uniqueDates.ContainsKey(year) && year >= 2020)
                             {
-                                uniqueDates.Add(DateOnly.ParseExact(FormatDate(columns[int.Parse(dateColumn)]), "dd/MM/yyyy", null));
+                                // If the year doesn't exist, add it to the dictionary with an empty HashSet for months
+                                uniqueDates[year] = new HashSet<int>();
                             }
+
+                            // Now, check if the month is already in the HashSet for that year
+                            if (uniqueDates.ContainsKey(year) && !uniqueDates[year].Contains(month))
+                            {
+                                // Add the month to the HashSet for the specified year
+                                uniqueDates[year].Add(month);
+                            }
+
+
+
                         }
                     }
-                    
-                    foreach (DateOnly date in uniqueDates)
-                     {
-                         IPMEncoder mProcess = bCpta.CreateProcess_Encoder();
-                         currentline = 0;
-                         bool check = false;
+                    //.WriteLine("in list" + journalItem);
+                    foreach (var date in uniqueDates)
+                    {
+                        foreach (var dt in date.Value)
+                        {
+                          //  Console.WriteLine("Anné " + date.Key +  " Mois "+ dt.ToString());
+                        }
+                    }
+
+                    foreach (var date in uniqueDates)
+                    {
+                     foreach (var dt in date.Value) { 
+
+                       IPMEncoder mProcess = bCpta.CreateProcess_Encoder();
+                        currentline = 0;
+                        bool check = false;
                         foreach (string line in lines.Skip(1))
                         {
                             string[] columns = line.Split('|');
@@ -208,38 +254,54 @@ using System.Reflection.Metadata;
                                 IBOCompteG3 compteg = null;
 
                                 string piece = "";
-                                string intitlule = "", reference = "";
+                                string intitlule = "", reference = "", nPiece = "", jrnalLine = "", nFacture = "";
+                                    DateTime dateSaisie = DateTime.Parse(FormatDate(columns[int.Parse(dateSaisieColumn)].Trim()));
+                                    int lineDatemonth = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(0, 3));
 
-                                DateOnly lineDate = DateOnly.Parse(FormatDate(columns[int.Parse(dateColumn)].Trim()));
-                                double montant = double.Parse(
+                                    // Extract the year (remaining digits)
+                                    int lineDateyear = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(3));
+                                    // Check if the year already exists in the dictionary
+                                    // Assuming uniqueDates is a Dictionary<int, int>
+                                    if (lineDatemonth == 13) lineDatemonth = 12;
+                                    double montant = double.Parse(
                                               columns[int.Parse(montantColumn)].Trim().TrimStart('-').Replace('.', ',')
                                               );
-                                if (journalItem.Trim().Equals(columns[int.Parse(journalColumn)].Trim())&&montant>0)
+                                if (journalItem.Trim().Equals(columns[int.Parse(journalColumn)].Trim()) && montant > 0)
                                 {
-                                    if (lineDate.Day == date.Day && lineDate.Month == date.Month && lineDate.Year == date.Year)
+                                    if (lineDatemonth == dt && lineDateyear == date.Key)
                                     {
                                         check = true;
                                         intitlule = columns[int.Parse(libelleColumn)].Trim();
                                         compteg = bCpta.FactoryCompteG.ReadNumero(columns[int.Parse(compteGColumn)].Trim());
                                         reference = columns[int.Parse(referenceColumn)].Trim();
+                                        jrnalLine = columns[int.Parse(jrnalLineColumn)].Trim();
+                                        nPiece = columns[int.Parse(nPieceColumn)].Trim();
+                                        nFacture = columns[int.Parse(nFactureColumn)].Trim();
                                         if (columns[int.Parse(compteGColumn)].Contains("4411") || columns[int.Parse(compteGColumn)].Contains("3421"))
                                         {
                                             tiers = bCpta.FactoryTiers.ReadNumero(columns[int.Parse(compteTiersColumn)].Trim());
                                         }
- 
-                                     
+
+
                                         mProcess.Journal = bCpta.FactoryJournal.ReadNumero(journalItem.Trim());
-                                        mProcess.Date = date.ToDateTime(TimeOnly.MinValue);
+                                        DateTime parsedDate = new DateTime(lineDateyear, lineDatemonth,1);
+
+                                        mProcess.Date = parsedDate;
+                                        mProcess.EC_Piece = nPiece;
                                         mProcess.EC_Reference = reference;
                                         mProcess.EC_Intitule = intitlule;
-                                         IBOEcriture3 ecriture = (IBOEcriture3)mProcess.FactoryEcritureIn.Create();
+                                        IBOEcriture3 ecriture = (IBOEcriture3)mProcess.FactoryEcritureIn.Create();
+                                        ecriture.DateSaisie = dateSaisie;
+
+                                         
+                                        ecriture.EC_RefPiece = nFacture;
                                         if (compteg != null) ecriture.CompteG = compteg;
                                         if (tiers != null)
                                         {
                                             ecriture.Tiers = tiers;
                                             ecriture.EC_Echeance = DateTime.Now;
                                         }
-                                        if ( columns[int.Parse(typeEcriture)].Trim().Equals("C"))
+                                        if (columns[int.Parse(typeEcriture)].Trim().Equals("C"))
                                         {
                                             ecriture.EC_Sens = EcritureSensType.EcritureSensTypeCredit;
                                             ecriture.EC_Montant = montant;
@@ -250,152 +312,222 @@ using System.Reflection.Metadata;
                                             ecriture.EC_Montant = montant;
 
                                         }
-                                         ecriture.WriteDefault();
+                                        ecriture.WriteDefault();
                                     }
                                 }
                             }
                         }
-                   
+
                         if (check == true)
-                         {
+                        {
                             if (!mProcess.CanProcess)
-                             {
-                                 success = false;
-                                 int day = date.Day;
-                                 int month = date.Month;
-                                int year = date.Year;
-                                 string formattedDay = day.ToString("00");
-                                 string formattedMonth = month.ToString("00");
-                                 string formattedYear = year.ToString("0000");
+                            {
+                                success = false;
+                                int month = dt;
+                                int year = date.Key;
+
                                 for (int d = 1; d <= mProcess.Errors.Count; d++)
-                                 {
-                                     IFailInfo iFail = mProcess.Errors[d];
+                                {
+                                    IFailInfo iFail = mProcess.Errors[d];
 
-                                     erreur += iFail.Text;
+                                    erreur += iFail.Text;
 
-                                     if (iFail.ErrorCode == 28201)
-                                     {
-                                        WriteToLog(logFilePath, "Les écritures générales ne sont pas équilibrées pour le journal " + journalItem + " " + formattedDay+ "/" + formattedMonth + "/" + formattedYear);
+                                    if (iFail.ErrorCode == 28201)
+                                    {
+                                        WriteToLog(logFilePath, "Les écritures générales ne sont pas équilibrées pour le journal " + journalItem + " " + month + "/" + year);
                                         //Console.WriteLine(debit + "/" + credit);
-                                        WriteToLog(logFilePath, "debit " + mProcess.Debit + "/ CREDIT :"+mProcess.Credit);
+                                        WriteToLog(logFilePath, "debit " + mProcess.Debit + "/ CREDIT :" + mProcess.Credit);
                                     }
 
-                                     else
-                                     {
-                                        WriteToLog(logFilePath, iFail.Text + " , au journal " + journalItem + ", Date " + " " + formattedDay  + "/" + formattedMonth + "/" + formattedYear );
+                                    else
+                                    {
+                                        WriteToLog(logFilePath, iFail.Text + " , au journal " + journalItem + ", Date " + " " + "/" + month + "/" + year);
                                         WriteToLog(logFilePath, iFail.ErrorCode);
 
                                     }
 
                                 }
-                                 bCpta.Close();
+                                bCpta.Close();
 
                             }
- 
+
                         }
 
-
+                     }
                      }
                     WriteToLog(logFilePath,"Journal " + journalItem + " equilibré");
                             
                 }
-            
                 
-    
+    */
+
+             
+
+
+
+                success = true;
                  if (success == true)
                  {
                      foreach (string journalItem in Journals)
                      {
-                        WriteToLog(logFilePath, "Journal " + journalItem + "commencé l'écriture");
-                        List<DateOnly> uniqueDates = new List<DateOnly>();
+                        Dictionary<int, HashSet<int>> uniqueDates = new Dictionary<int, HashSet<int>>();
+
                         foreach (string line in lines.Skip(1))
                         {
-                            // Split each line into columns by comma
+                            // Split each line into columns by '|'
                             string[] columns = line.Split('|');
 
-                            if (journalItem.Trim().Equals(columns[int.Parse(journalColumn)].Trim()) && !uniqueDates.Contains(DateOnly.Parse(FormatDate(columns[int.Parse(dateColumn)])))
-                               && DateTime.Parse(FormatDate(columns[int.Parse(dateColumn)])).Year >= 2020)
+                            if (journalItem.Trim() == columns[int.Parse(journalColumn)].Trim())
                             {
-                                uniqueDates.Add(DateOnly.Parse(FormatDate(columns[int.Parse(dateColumn)])));
+
+
+                                // Extract the year and month
+                                // Extract the month (first 2 digits)
+                                int month = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(0, 3));
+
+                                // Extract the year (remaining digits)
+                                int year = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(3));
+                                if (month == 13) month = 12;
+
+                                // Assuming uniqueDates is a Dictionary<int, HashSet<int>>
+                                if (!uniqueDates.ContainsKey(year) && year >= 2020)
+                                {
+                                    // If the year doesn't exist, add it to the dictionary with an empty HashSet for months
+                                    uniqueDates[year] = new HashSet<int>();
+                                }
+
+                                // Now, check if the month is already in the HashSet for that year
+                                if (uniqueDates.ContainsKey(year) && !uniqueDates[year].Contains(month))
+                                {
+                                    // Add the month to the HashSet for the specified year
+                                    uniqueDates[year].Add(month);
+                                }
+
+
+
                             }
-
                         }
-                        foreach (DateOnly date in uniqueDates)
-                         {
-                             IPMEncoder mProcess = bCpta.CreateProcess_Encoder();
-                               foreach (string line in lines.Skip(1))
-                             {
-                                string[] columns = line.Split('|');
-                                   IBOTiers3 tiers = null;
-                                 IBOCompteG3 compteg = null;
 
-                                 string piece = "";
-                                 string intitlule = "", reference = "";
-                                 DateTime rowDate;
+                        WriteToLog(logFilePath, "Journal " + journalItem + " commencé l'écriture");
+                 
+                        foreach (var date in uniqueDates)
+                        {
+                         foreach (var dt in date.Value)
+                            {
+                             IPMEncoder mProcess = bCpta.CreateProcess_Encoder();
+                            currentline = 0;
+                            bool check = false;
+                            foreach (string line in lines.Skip(1))
+                            {
+                                string[] columns = line.Split('|');
+                                currentline++;
 
                                 if (columns[int.Parse(compteGColumn)].Trim() != "999999")
                                 {
-                                    DateOnly lineDate = DateOnly.Parse(FormatDate(columns[int.Parse(dateColumn)].Trim()));
-                                    double montant = double.Parse(columns[int.Parse(montantColumn)].Trim().TrimStart('-').Replace('.', ','));
+                                    IBOTiers3 tiers = null;
+                                    IBOCompteG3 compteg = null;
 
+                                    string piece = "";
+                                    string intitlule = "", reference = "", nPiece = "", jrnalLine = "", nFacture = "";
+                                    DateTime dateSaisie = DateTime.Parse(FormatDate(columns[int.Parse(dateSaisieColumn)].Trim()));
+                                        int lineDatemonth = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(0, 3));
+
+                                        // Extract the year (remaining digits)
+                                        int lineDateyear = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(3));
+                                        // Check if the year already exists in the dictionary
+                                        // Assuming uniqueDates is a Dictionary<int, int>
+                                        if (lineDatemonth == 13) lineDatemonth = 12;
+
+                                        double montant = double.Parse(
+                                                  columns[int.Parse(montantColumn)].Trim().TrimStart('-').Replace('.', ',')
+                                                  );
                                     if (journalItem.Trim().Equals(columns[int.Parse(journalColumn)].Trim()) && montant > 0)
                                     {
-                                        if (lineDate.Day == date.Day && lineDate.Month == date.Month && lineDate.Year == date.Year)
-                                        {
-                                            
-                                        intitlule = columns[int.Parse(libelleColumn)].Trim();
-                                        reference = columns[int.Parse(referenceColumn)].Trim();
-                                        compteg = bCpta.FactoryCompteG.ReadNumero(columns[int.Parse(compteGColumn)].Trim());
-                                        if (columns[int.Parse(compteGColumn)].Contains("4411") || columns[int.Parse(compteGColumn)].Contains("3421"))
-                                        {
-                                            tiers = bCpta.FactoryTiers.ReadNumero(columns[int.Parse(compteTiersColumn)].Trim());
-                                        }
-                                         
-                                        mProcess.Journal = bCpta.FactoryJournal.ReadNumero(journalItem.Trim());
-                                        mProcess.Date = date.ToDateTime(TimeOnly.MinValue);
-                                        //mProcess.EC_Piece = piece;
-                                        mProcess.EC_Intitule = intitlule;
-                                        IBOEcriture3 ecriture = (IBOEcriture3)mProcess.FactoryEcritureIn.Create();
-                                        if (compteg != null) ecriture.CompteG = compteg;
-                                        if (tiers != null)
-                                        {
-                                            ecriture.Tiers = tiers;
-                                            ecriture.EC_Echeance = DateTime.Now;
-                                        }
-                                        if (montant > 0 && columns[int.Parse(typeEcriture)].Equals("C"))
-                                        {
-                                            ecriture.EC_Sens = EcritureSensType.EcritureSensTypeCredit;
-                                            ecriture.EC_Montant = montant;
-                                        }
-                                        else if (montant > 0 && columns[int.Parse(typeEcriture)].Equals("D"))
-                                        {
-                                            ecriture.EC_Sens = EcritureSensType.EcritureSensTypeDebit;
-                                            ecriture.EC_Montant = montant;
-                                        }
+                                            if (lineDatemonth == dt && lineDateyear == date.Key)
+                                            {
+                                                check = true;
+                                                intitlule = columns[int.Parse(libelleColumn)].Trim();
+                                                compteg = bCpta.FactoryCompteG.ReadNumero(columns[int.Parse(compteGColumn)].Trim());
+                                                reference = columns[int.Parse(referenceColumn)].Trim();
+                                                jrnalLine = columns[int.Parse(jrnalLineColumn)].Trim();
+                                                nPiece = columns[int.Parse(nPieceColumn)].Trim();
+                                                nFacture = columns[int.Parse(nFactureColumn)].Trim();
+                                                if (columns[int.Parse(compteGColumn)].Contains("4411") || columns[int.Parse(compteGColumn)].Contains("3421"))
+                                                {
+                                                    tiers = bCpta.FactoryTiers.ReadNumero(columns[int.Parse(compteTiersColumn)].Trim());
+                                                }
 
-                                        ecriture.WriteDefault();
-                                    }
-                                    
-                                    }
+
+                                                mProcess.Journal = bCpta.FactoryJournal.ReadNumero(journalItem.Trim());
+                                                DateTime parsedDate = new DateTime(lineDateyear, lineDatemonth, 1);
+                                                mProcess.Date = parsedDate;
+                                                mProcess.EC_Piece = nPiece;
+                                                mProcess.EC_Reference = reference;
+                                                mProcess.EC_Intitule = intitlule;
+                                                IBOEcriture3 ecriture = (IBOEcriture3)mProcess.FactoryEcritureIn.Create();
+                                                 ecriture.DateSaisie = dateSaisie;
+                                                 ecriture.EC_RefPiece = nFacture;
+ 
+                                                if (compteg != null) ecriture.CompteG = compteg;
+                                                if (tiers != null)
+                                                {
+                                                    ecriture.Tiers = tiers;
+                                                    ecriture.EC_Echeance = DateTime.Now;
+                                                }
+                                                if (columns[int.Parse(typeEcriture)].Trim().Equals("C"))
+                                                {
+                                                    ecriture.EC_Sens = EcritureSensType.EcritureSensTypeCredit;
+                                                    ecriture.EC_Montant = montant;
+                                                }
+                                                else if (columns[int.Parse(typeEcriture)].Trim().Equals("D"))
+                                                {
+                                                    ecriture.EC_Sens = EcritureSensType.EcritureSensTypeDebit;
+                                                    ecriture.EC_Montant = montant;
+
+                                                }
+                                                ecriture.Write();
+                                             
+                                                //ecriture.InfoLibre["JRNAL_NO"] = "test";
+                                                //ecriture.Write();
+                                                // ecritureModel.WriteDefault();
+
+
+
+
+                                                //Console.WriteLine("ecriture : " + ecriture.EC_No);
+                                            }
+                                        }
                                 }
                             }
 
-
                             if (mProcess.CanProcess)
                             {
-                                mProcess.Process();
+                                    mProcess.Process();
 
-                            }
-                            else
+
+                                    /*
+                                    foreach(IBOEcriture3 ecr in mProcess.ListEcrituresOut) {
+
+                                        foreach (string line in lines.Skip(1))
+                                        {
+                                            string[] columns = line.Split('|');
+                                            if(ecr.EC_Intitule == columns[int.Parse(libelleColumn)].Trim() && ecr..InfoLibre["JRNAL_NO"]=="") { 
+                                            ecr.InfoLibre["JRNAL_NO"] = columns[int.Parse(jrnalLineColumn)].Trim();
+                                            ecr.Write();
+                                            }
+                                        }
+                                    }*/
+                                }
+                                else
                             {
                                 for (int d = 1; d <= mProcess.Errors.Count; d++)
                                 {
                                     IFailInfo iFail = mProcess.Errors[d];
-                                    WriteToLog(logFilePath, iFail.Text);
-                                }
+                                    WriteToLog(logFilePath, iFail.Text + iFail.ToString());
+                               }
                             }
 
- 
+                        }
                         }
 
                         WriteToLog(logFilePath, "Journal " + journalItem + " a fini l'insertion des ecritures");
@@ -404,7 +536,7 @@ using System.Reflection.Metadata;
 
                 }
                            
-           
+            
             }
 
             stopwatch.Stop();
@@ -451,6 +583,7 @@ using System.Reflection.Metadata;
             {
                 // Write the timestamp and message to the log file
                 sw.WriteLine($"{timestamp} - {message}{Environment.NewLine}");
+                Console.WriteLine($"{timestamp} - {message}{Environment.NewLine}");
             }
         }
         catch (Exception ex)
@@ -511,13 +644,14 @@ using System.Reflection.Metadata;
             {
                 connection.Open();
 
-                // Split script into individual batches by "GO"
-                string[] commands = script.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
+                 string[] commands = script.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
 
                 foreach (string command in commands)
                 {
                      using (SqlCommand sqlCommand = new SqlCommand(command, connection))
                     {
+
+                        sqlCommand.CommandTimeout = 0;
                         sqlCommand.ExecuteNonQuery();
                     }
                 }
