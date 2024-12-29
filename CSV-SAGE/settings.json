@@ -1,17 +1,15 @@
 {
-  "scriptLink": "C:\\Users\\Hp\\Desktop\\CSV TO SAGE\\AQU\\CLONE DATABASE.sql",
+  "scriptLink": "C:\\Users\\Hp\\Desktop\\CSV TO SAGE\\WBA\\CLONE DATABASE.sql",
   "Dbuser": "sa",
   "server": "DESKTOP-PCP3HQ4\\SAGE100",
-  "Db": "AQU",
+  "Db": "WBA",
   "userPassword": "Sage@1234",
-  "bCpta": "D:\\basesage\\AQU.mae",
+  "bCpta": "D:\\basesage\\WBA.mae",
   "username": "<Administrateur>",
   "password": "",
-  "fichier": "D:\\Developpement\\CSV-SAGE\\Example.csv",
+  "fichier": "D:\\Developpement\\CSV-SAGE\\Ledger Export_WBA.csv",
   "Journal": 10,
-  "NPiece": 6,
   "Date": 3,
-  "jrnal_Line": 6,
   "Nfacture": 17,
   "DateSaisie": 14,
   "Reference": 0,
@@ -21,5 +19,9 @@
   "Libelle": 13,
   "TypeEcriture": 8,
   "Montant": 7,
-  "numcompte": 0
+  "numcompte": 0,
+  "JRNAL_LINE": 6,
+  "JRNAL_NO": 5,
+  "TREFERENCE": 12,
+  "ALLOC_REF": 17
 }

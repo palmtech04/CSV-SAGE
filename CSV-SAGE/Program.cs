@@ -5,15 +5,17 @@ using System.Diagnostics;
 using System.Data.SqlClient; // Use Microsoft.Data.SqlClient if preferred.
 using System.Globalization;
 using System.Reflection.Metadata;
- class Program
+class Program
 {
     // Declaration of global objects
     private static BSCPTAApplication100c bCpta = new();
     private static BSCIALApplication100c bCial = new();
      private static int rowCount;
+  
     static async Task Main(string[] args)
     {
         int currentline = 0;
+        int erreurLine  = 0;
         // Get the directory where the executable is running
         string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
@@ -47,8 +49,7 @@ using System.Reflection.Metadata;
              string montantColumn = configuration["Montant"];
             string NomCompteColumn = configuration["Nom_Compte"];
             string typeEcriture = configuration["TypeEcriture"];
-            string jrnalLineColumn = configuration["jrnal_Line"];
-            string nFactureColumn = configuration["Nfacture"];
+         
             string scriptLink = configuration["scriptLink"];
             string Dbuser = configuration["Dbuser"];
             string userPassword = configuration["userPassword"];
@@ -56,7 +57,14 @@ using System.Reflection.Metadata;
             string server = configuration["server"];
             string erreur = "";
             bool success = true;
-            string nPieceColumn = configuration["NPiece"];
+ 
+            string jrnalLineColumn = configuration["JRNAL_LINE"];
+            string jrnalNoColumn = configuration["JRNAL_NO"];
+            string jrnalTRefernceColumn = configuration["TREFERENCE"];
+            string jrnalAllocRefColumn = configuration["ALLOC_REF"];
+
+
+
 
             string connectionString = "Server="+server
                 +";Database="+db+";User Id="+ Dbuser + ";Password="+ userPassword+"; ";
@@ -72,7 +80,7 @@ using System.Reflection.Metadata;
             Dictionary<String, String> lstClients = new Dictionary<String, String>();
             List<string> Journals = new List<string>();
             // Read all lines from the CSV file
-   
+           Dictionary<int, Ecriture> lstEcritures = new Dictionary<int, Ecriture>();
             string[] lines = File.ReadAllLines(fileText);
     
              foreach (string line in lines.Skip(1))
@@ -180,10 +188,27 @@ using System.Reflection.Metadata;
 
 
                 //Console.WriteLine("--------------------Traitement des écritures-------------------");
-
+             
+                string tempFilePath = Path.GetTempFileName();
+                int index = 0;
+                foreach (string line in lines)
+                {
+                    if (index != 0) {
+                        File.AppendAllText(tempFilePath, $"{index}|{line}{Environment.NewLine}");
+                        index++;
+                    }
+                    else
+                    {
+                        File.AppendAllText(tempFilePath, $"{line}{Environment.NewLine}");
+                        index++;
+                    }
+                }
+                lines = File.ReadAllLines(tempFilePath);
+                foreach(string line in lines)
+                Console.WriteLine(line);
 
                 /*
- 
+
 
                 foreach (string journalItem in Journals)
                  {
@@ -293,7 +318,7 @@ using System.Reflection.Metadata;
                                         IBOEcriture3 ecriture = (IBOEcriture3)mProcess.FactoryEcritureIn.Create();
                                         ecriture.DateSaisie = dateSaisie;
 
-                                         
+
                                         ecriture.EC_RefPiece = nFacture;
                                         if (compteg != null) ecriture.CompteG = compteg;
                                         if (tiers != null)
@@ -356,16 +381,15 @@ using System.Reflection.Metadata;
                      }
                      }
                     WriteToLog(logFilePath,"Journal " + journalItem + " equilibré");
-                            
+
                 }
-                
+
     */
 
-             
 
 
-
-                success = true;
+ 
+                     success = true;
                  if (success == true)
                  {
                      foreach (string journalItem in Journals)
@@ -377,16 +401,16 @@ using System.Reflection.Metadata;
                             // Split each line into columns by '|'
                             string[] columns = line.Split('|');
 
-                            if (journalItem.Trim() == columns[int.Parse(journalColumn)].Trim())
+                            if (journalItem.Trim() == columns[int.Parse(journalColumn)+1].Trim())
                             {
 
 
                                 // Extract the year and month
                                 // Extract the month (first 2 digits)
-                                int month = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(0, 3));
+                                int month = int.Parse(columns[int.Parse(dateColumn) + 1].Trim().Substring(0, 3));
 
                                 // Extract the year (remaining digits)
-                                int year = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(3));
+                                int year = int.Parse(columns[int.Parse(dateColumn) + 1].Trim().Substring(3));
                                 if (month == 13) month = 12;
 
                                 // Assuming uniqueDates is a Dictionary<int, HashSet<int>>
@@ -414,88 +438,90 @@ using System.Reflection.Metadata;
                         {
                          foreach (var dt in date.Value)
                             {
+
                              IPMEncoder mProcess = bCpta.CreateProcess_Encoder();
-                            currentline = 0;
+                  
                             bool check = false;
                             foreach (string line in lines.Skip(1))
                             {
                                 string[] columns = line.Split('|');
                                 currentline++;
 
-                                if (columns[int.Parse(compteGColumn)].Trim() != "999999")
+                                if (columns[int.Parse(compteGColumn) + 1].Trim() != "999999")
                                 {
                                     IBOTiers3 tiers = null;
                                     IBOCompteG3 compteg = null;
 
-                                    string piece = "";
-                                    string intitlule = "", reference = "", nPiece = "", jrnalLine = "", nFacture = "";
-                                    DateTime dateSaisie = DateTime.Parse(FormatDate(columns[int.Parse(dateSaisieColumn)].Trim()));
-                                        int lineDatemonth = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(0, 3));
+                                     string intitlule = "";
+                                    DateTime dateSaisie = DateTime.Parse(FormatDate(columns[int.Parse(dateSaisieColumn) + 1].Trim()));
+                                        int lineDatemonth = int.Parse(columns[int.Parse(dateColumn)+1].Trim().Substring(0, 3));
 
                                         // Extract the year (remaining digits)
-                                        int lineDateyear = int.Parse(columns[int.Parse(dateColumn)].Trim().Substring(3));
+                                        int lineDateyear = int.Parse(columns[int.Parse(dateColumn) + 1].Trim().Substring(3));
                                         // Check if the year already exists in the dictionary
                                         // Assuming uniqueDates is a Dictionary<int, int>
                                         if (lineDatemonth == 13) lineDatemonth = 12;
 
-                                        double montant = double.Parse(
-                                                  columns[int.Parse(montantColumn)].Trim().TrimStart('-').Replace('.', ',')
+                                  double montant = double.Parse(
+                                            columns[int.Parse(montantColumn) + 1].Trim().TrimStart('-').Replace('.', ',')
                                                   );
-                                    if (journalItem.Trim().Equals(columns[int.Parse(journalColumn)].Trim()) && montant > 0)
+                             if (journalItem.Trim().Equals(columns[int.Parse(journalColumn) + 1].Trim()) && montant > 0)
                                     {
                                             if (lineDatemonth == dt && lineDateyear == date.Key)
                                             {
                                                 check = true;
-                                                intitlule = columns[int.Parse(libelleColumn)].Trim();
-                                                compteg = bCpta.FactoryCompteG.ReadNumero(columns[int.Parse(compteGColumn)].Trim());
-                                                reference = columns[int.Parse(referenceColumn)].Trim();
-                                                jrnalLine = columns[int.Parse(jrnalLineColumn)].Trim();
-                                                nPiece = columns[int.Parse(nPieceColumn)].Trim();
-                                                nFacture = columns[int.Parse(nFactureColumn)].Trim();
-                                                if (columns[int.Parse(compteGColumn)].Contains("4411") || columns[int.Parse(compteGColumn)].Contains("3421"))
+                                                intitlule = columns[int.Parse(libelleColumn) + 1].Trim();
+                                                compteg = bCpta.FactoryCompteG.ReadNumero(columns[int.Parse(compteGColumn) + 1].Trim());
+ 
+                                                if (columns[int.Parse(compteGColumn) + 1].Contains("4411") ||
+                                                    columns[int.Parse(compteGColumn) + 1].Contains("3421"))
                                                 {
-                                                    tiers = bCpta.FactoryTiers.ReadNumero(columns[int.Parse(compteTiersColumn)].Trim());
+                                                    tiers = bCpta.FactoryTiers.ReadNumero(columns[int.Parse(compteTiersColumn) + 1].Trim());
                                                 }
 
 
                                                 mProcess.Journal = bCpta.FactoryJournal.ReadNumero(journalItem.Trim());
                                                 DateTime parsedDate = new DateTime(lineDateyear, lineDatemonth, 1);
                                                 mProcess.Date = parsedDate;
-                                                mProcess.EC_Piece = nPiece;
-                                                mProcess.EC_Reference = reference;
+
+                                                mProcess.EC_Reference = columns[0];
                                                 mProcess.EC_Intitule = intitlule;
                                                 IBOEcriture3 ecriture = (IBOEcriture3)mProcess.FactoryEcritureIn.Create();
                                                  ecriture.DateSaisie = dateSaisie;
-                                                 ecriture.EC_RefPiece = nFacture;
- 
+  
                                                 if (compteg != null) ecriture.CompteG = compteg;
                                                 if (tiers != null)
                                                 {
                                                     ecriture.Tiers = tiers;
                                                     ecriture.EC_Echeance = DateTime.Now;
                                                 }
-                                                if (columns[int.Parse(typeEcriture)].Trim().Equals("C"))
+                                                if (columns[int.Parse(typeEcriture) + 1].Trim().Equals("C"))
                                                 {
                                                     ecriture.EC_Sens = EcritureSensType.EcritureSensTypeCredit;
                                                     ecriture.EC_Montant = montant;
                                                 }
-                                                else if (columns[int.Parse(typeEcriture)].Trim().Equals("D"))
+                                                else if (columns[int.Parse(typeEcriture) + 1].Trim().Equals("D"))
                                                 {
                                                     ecriture.EC_Sens = EcritureSensType.EcritureSensTypeDebit;
                                                     ecriture.EC_Montant = montant;
 
                                                 }
                                                 ecriture.Write();
-                                             
-                                                //ecriture.InfoLibre["JRNAL_NO"] = "test";
-                                                //ecriture.Write();
-                                                // ecritureModel.WriteDefault();
+                                                
+                                                Ecriture ecritureModel = new Ecriture();
+                                                ecritureModel.journalLine = 
+                                                    string.IsNullOrEmpty(columns[int.Parse(jrnalLineColumn) + 1].Trim()) ? " " : columns[int.Parse(jrnalLineColumn) + 1].Trim();
+                                                ecritureModel.journalNo = 
+                                                    string.IsNullOrEmpty(columns[int.Parse(jrnalNoColumn) + 1].Trim()) ? " " : columns[int.Parse(jrnalNoColumn) + 1].Trim();
+                                                ecritureModel.tRefernce = 
+                                                    string.IsNullOrEmpty(columns[int.Parse(jrnalTRefernceColumn) + 1].Trim()) ? " " : columns[int.Parse(jrnalTRefernceColumn) + 1].Trim();
+                                                ecritureModel.allocRef = 
+                                                    string.IsNullOrEmpty(columns[int.Parse(jrnalAllocRefColumn) + 1].Trim()) ? " " : columns[int.Parse(jrnalAllocRefColumn) + 1].Trim();
 
+                                                lstEcritures.Add(int.Parse(ecriture.EC_Reference), ecritureModel);
+                                                
 
-
-
-                                                //Console.WriteLine("ecriture : " + ecriture.EC_No);
-                                            }
+                                             }
                                         }
                                 }
                             }
@@ -505,19 +531,34 @@ using System.Reflection.Metadata;
                                     mProcess.Process();
 
 
-                                    /*
+                                    
                                     foreach(IBOEcriture3 ecr in mProcess.ListEcrituresOut) {
+                                            Ecriture currentEecriture = new Ecriture();
+                             
 
-                                        foreach (string line in lines.Skip(1))
-                                        {
-                                            string[] columns = line.Split('|');
-                                            if(ecr.EC_Intitule == columns[int.Parse(libelleColumn)].Trim() && ecr..InfoLibre["JRNAL_NO"]=="") { 
-                                            ecr.InfoLibre["JRNAL_NO"] = columns[int.Parse(jrnalLineColumn)].Trim();
-                                            ecr.Write();
+                                            if (lstEcritures.TryGetValue(int.Parse(ecr.EC_Reference), out currentEecriture))
+                                            {
+                                                ecr.InfoLibre["JRNAL_LINE"] = currentEecriture.journalLine ?? " ";
+                                                ecr.InfoLibre["JRNAL_NO"] = currentEecriture.journalNo ?? " ";
+                                                ecr.InfoLibre["ALLOC_REF"] = currentEecriture.allocRef ?? " ";
+                                                ecr.InfoLibre["TREFERENCE"] = currentEecriture.tRefernce ?? " "; 
+                                                ecr.Write();
                                             }
-                                        }
-                                    }*/
-                                }
+                                            else
+                                            {
+                                                // Handle the case where the key does not exist in lstEcritures
+                                                ecr.InfoLibre["JRNAL_LINE"] = " ";
+                                                ecr.InfoLibre["JRNAL_NO"] = " ";
+                                                ecr.InfoLibre["ALLOC_REF"] = " ";
+                                                ecr.InfoLibre["TREFERENCE"] = " ";
+ 
+                                                ecr.Write();
+                                            }
+                                    }
+                                    
+
+                             }
+                                
                                 else
                             {
                                 for (int d = 1; d <= mProcess.Errors.Count; d++)
@@ -546,7 +587,8 @@ using System.Reflection.Metadata;
         }
         catch (Exception ex)
         {
-            WriteToLog(logFilePath, $"An unexpected error occurred: {ex.Message}");
+            WriteToLog(logFilePath, $"An unexpected error occurred: {ex.Message} {ex.StackTrace} au ligne {erreurLine} " +
+                $"{ex.InnerException}{ex.Source}{ex.Data}{ex.HResult}");
             
         }
         finally
@@ -561,6 +603,20 @@ using System.Reflection.Metadata;
 
 
 
+
+    public class Ecriture
+    {
+        public int reference { get; set; }
+        
+        public string journalNo { get; set; }
+
+        public string journalLine { get; set; }
+
+        public string tRefernce { get; set; }
+
+        public string allocRef {  get; set; }
+
+    }
     static void WriteToLog(string fileName, string message)
     {
         // Check if fileName is empty or null
